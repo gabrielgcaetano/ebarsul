@@ -15,6 +15,7 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/pelotas', function () {
-    return view('cidade');
-});
+//Route::get('/pelotas', function () {
+//    return view('cidade')
+//});
+$this->get('cidade', 'Admin\CidadeController@index')->name('cidade');
