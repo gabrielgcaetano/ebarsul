@@ -27,59 +27,7 @@
 </head>
 <body>
 
-<header class="header">
-    <div class="mobile-content">
-        <div class="text-center">
-            <img class="ml-45"
-                 alt="V EBAR SUL - 2018 | 16 a 18 de novembro de 2018 em União da Vitória - PR | Moto Clube Bodes do Asfalto | Sub-Sede - Contestado PR/SC"
-                 src="{{ url('images/lgo/v-ebar-sul-big.png') }}">
-        </div>
-    </div>
-    <nav class="menu">
-        <a class="toggle-menu">
-            <img alt="Acessar menu" src="{{ url('images/ico/toggle-menu.png') }}">
-        </a>
-        <div class="menu-content">
-            <ul class="menu-list">
-                <h1 class="">
-                    <a class="fade menu-logo logo-big" href="index-2.html" target="_self" data-aos="zoom-in"
-                       data-aos-duration="1000">
-                        <img alt="V EBAR SUL - 2018 | 16 a 18 de novembro de 2018 em União da Vitória - PR | Moto Clube Bodes do Asfalto | Sub-Sede - Contestado PR/SC"
-                             src="{{ url('images/lgo/v-ebar-sul-big.png') }}">
-                    </a>
-                    <a class="fade menu-logo logo-small" href="index-2.html" target="_self">
-                        <img alt="V EBAR SUL - 2018 | 16 a 18 de novembro de 2018 em União da Vitória - PR | Moto Clube Bodes do Asfalto | Sub-Sede - Contestado PR/SC"
-                             src="{{ url('images/lgo/v-ebar-sul-small.png') }}">
-                    </a>
-                </h1>
-                <li class="menu-item" data-aos="fade-down">
-                    <a href="index-2.html" target="_self" class="menu-link is-active">O evento</a>
-                </li>
-                <li class="menu-item" data-aos="fade-down">
-                    <a href="inscricao.html" target="_self" class="menu-link">Inscrição</a>
-                </li>
-                <li class="menu-item menu-third-item" data-aos="fade-down">
-                    <a href="{{ route('cidade') }}" target="_self" class="menu-link">Gêmeas do Iguaçu</a>
-                </li>
-                <li class="menu-item" data-aos="fade-down">
-                    <a href="programacao.html" target="_self" class="menu-link">Programação</a>
-                </li>
-                <li class="menu-item" data-aos="fade-down">
-                    <a href="hospedagem.html" target="_self" class="menu-link">Hospedagem</a>
-                </li>
-                <li class="menu-item" data-aos="fade-down">
-                    <a href="contato.html" target="_self" class="menu-link">Contato</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <div class="counter text-center color-white pt-50" data-aos="fade-up" data-aos-duration="1000"
-         data-aos-delay="1000">
-        <img class="img-inline-block px-5" alt="Bandeira do Paraná" src="{{ url('images/ico/flag-parana.png') }}">
-        <img class="img-inline-block px-5" alt="Bandeira de Santa Catarina"
-             src="{{ url('images/ico/flag-santa-catarina.png') }}">
-    </div>
-</header>
+@include('inc.head')
 
 <main>
     <section class="section back-black color-white py-30">
@@ -197,7 +145,7 @@
                 <p class="mt-20">Devido a geografia acidentada da região, as cidades abrigam belas cachoeiras. São
                     dezenas de quedas d'água com altura variando entre 10 a 60 metros.</p>
                 <p>Clique no botão abaixo e conheça os principais atrativos turísticos das cidades.</p>
-                <a href="gemeas-do-iguacu.html" target="_self" class="btn btn-black mt-20">
+                <a href="{{ route('cidade') }}" target="_self" class="btn btn-black mt-20">
                     Conheça as cidades
                 </a>
             </div>
@@ -242,7 +190,7 @@
             <div class="grid-16 offset-1" data-aos="fade-right" data-aos-offset="300">
                 <h2 class="title-yellow">Programação</h2>
                 <p>Confira a programação completa do <strong>V EBAR SUL - 2018</strong> clicando no botão abaixo.</p>
-                <a href="programacao.html" target="_self" class="btn btn-yellow mt-20">
+                <a href="{{ route('programacao') }}" target="_self" class="btn btn-yellow mt-20">
                     Programação completa
                 </a>
             </div>
@@ -291,13 +239,7 @@
     </section>
 </main>
 
-<footer class="section back-black-dark">
-    <div class="grid-34 offset-1 text-center">
-        {{--<a href="http://www.laluvia.com.br/" target="_blank">--}}
-        {{--<img class="fade img-center py-10" alt="Laluvia Front End Developer" src="assets/images/lgo/laluvia.png">--}}
-        {{--</a>--}}
-    </div>
-</footer>
+@include('inc.footer')
 
 <script src="{{ url('js/jquery-3.2.1.min.js') }}"></script>
 <script src="{{ url('js/counter.min.js') }}"></script>
