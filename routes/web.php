@@ -1,17 +1,6 @@
 <?php
 
 /*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
-
-/*
  * Responsável pela Rota da página principal
  */
 Route::get('/', function () {
@@ -28,6 +17,9 @@ $this->get('evento', 'Admin\EventoController@index')->name('evento');
  */
 $this->get('incricao', 'Admin\InscricaoController@index')->name('incricao');
 
+$this->post('incricao-enviar', 'Admin\InscricaoController@inscrever')->name('incricao-enviar');
+
+$this->post('incricao-download-comprovante', 'Admin\InscricaoController@download')->name('incricao-download-comprovante');
 /*
  * Responsável pela rota da cidade
  */
