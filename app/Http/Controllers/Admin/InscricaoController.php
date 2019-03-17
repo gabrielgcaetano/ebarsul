@@ -2,38 +2,86 @@
 
 namespace App\Http\Controllers\Admin;
 
+use App\Mail\SendMailInscrito;
+use App\Mail\SendMailOrganizacao;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\Models\Inscrito;
+use Illuminate\Support\Facades\Mail;
 
 class InscricaoController extends Controller
 {
-    public function index()
+    /*
+     *   Carrega a tela de inscrição passando todos inscritos do banco
+     */
+    public function index(Inscrito $inscrito)
     {
-        return view('inscricao');
+        $inscritos = $inscrito::all();
+        return view('inscricao', compact('inscritos'));
     }
-
-    public function inscrever(Request $request)
+    /*
+     *   Save do formulario de inscricao
+     */
+    public function inscrever(Request $request, Inscrito $inscrito)
     {
-        // Define um aleatório para o arquivo baseado no timestamps atual
-        $name = uniqid(date('HisYmd'));
-
-        // Recupera a extensão do arquivo
-        $extension = $request->arquivo->extension();
-
-        // Define finalmente o nome
-        $nameFile = "{$name}.{$extension}";
-
-        // Faz o upload:
-        $upload = $request->arquivo->storeAs('comprovantes', $nameFile);
-        // Se tiver funcionado o arquivo foi armazenado em storage/app/public/categories/nomedinamicoarquivo.extensao
-
-        dd($upload);
+        $dataForm = $request->all();
+        $retorno = $inscrito->salvar($dataForm);
+        return redirect()->route('inscricao-enviar-email-inscrito');
     }
-
-    public function download(Request $request){
+    /*
+     *   Responsavel pelo download
+     */
+    public function download(Request $request)
+    {
         $filename = $request['nome'];
         return response()->download(storage_path("app/comprovantes/" . $filename));
 //        return view('inscricao');
+
+    }
+    /*
+     *   Responsável pelo email enviado para o inscrito
+     */
+    public function enviaEmailInscrito(Inscrito $inscrito)
+    {
+        $ins = Inscrito::orderBy('id', 'desc')->first();
+        Mail::to($ins['email'])
+            ->send(new SendMailInscrito($ins));
+
+        return redirect()->route('inscricao-enviar-email-organizacao');
+    }
+    /*
+     *   Responsável pelo email enviado para o organizador
+     */
+    public function enviaEmailOrganizacao(Inscrito $inscrito)
+    {
+        $ins = Inscrito::orderBy('id', 'desc')->first();
+        Mail::to("gabriel.goulartcaetano@gmail.com")
+            ->send(new SendMailOrganizacao($ins));
+        return view('inscricao');
+    }
+    /*
+     *   Responsável por confirmar a inscrição
+     */
+    public function confirmar(int $id, Inscrito $inscrito)
+    {
+        $retorno = $inscrito::confirmar($id);
+        dd($retorno);
+    }
+    /*
+     *   Responsável por rejeitar a inscrição
+     */
+    public function rejeitar(int $id, Inscrito $inscrito)
+    {
+        $retorno = $inscrito::rejeitar($id);
+        dd($retorno);
+    }
+
+    /*
+     *   Responsável pela tela de inscritos adm
+     */
+    public function inscritos(Inscrito $inscrito){
+        $inscritos = $inscrito::all();
+        return view('inscritos', compact('inscritos'));
 
     }
 }

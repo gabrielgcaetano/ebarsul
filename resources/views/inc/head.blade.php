@@ -27,7 +27,7 @@
                     <a href="{{ route('evento') }}" target="_self" class="menu-link is-active">O evento</a>
                 </li>
                 <li class="menu-item" data-aos="fade-down">
-                    <a href="{{ route('incricao') }}" target="_self" class="menu-link">Inscrição</a>
+                    <a href="{{ route('inscricao') }}" target="_self" class="menu-link">Inscrição</a>
                 </li>
                 <li class="menu-item menu-third-item" data-aos="fade-down">
                     <a href="{{ route('cidade') }}" target="_self" class="menu-link">Gêmeas do Iguaçu</a>

@@ -33,7 +33,7 @@
     <section class="section back-black color-white py-30">
         <div class="equal-height-grid-top">
             <div class="grid-34" data-aos="fade-right" data-aos-offset="300">
-                <h1 style="font-size: 40px" id="contador" align="center"> </h1>
+                <h1 style="font-size: 40px" id="contador" align="center"></h1>
             </div>
         </div>
         <div id="formulario-senha" class="equal-height-grid-top">
@@ -61,20 +61,12 @@
                 <a onclick="onClickListaInscritos()" class="btn btn-yellow mt-20">
                     Lista de Inscritos
                 </a>
-                <br>
-                <form action="{{route("incricao-download-comprovante")}}" method="post"
-                      enctype="multipart/form-data" name="form">
-                    {{ csrf_field() }}
-                    <input type="text" name="nome" value="010701201903165c8c4c35b18bf.png" required
-                           style="display: none">
-                    <button type="submit" class="btn btn-yellow mt-20"> Baixar Comprovante</button>
-                </form>
             </div>
         </div>
         <div id="formulario-cadastro" class="equal-height-grid-top" style="display: none">
             <div class="grid-34 offset-1" data-aos="fade-up" data-aos-offset="300">
                 <h2 class="title-yellow mt-50">Lista de inscritos</h2>
-                <form action="{{route("incricao-enviar")}}" method="post" enctype="multipart/form-data">
+                <form action="{{route("inscricao-enviar")}}" method="post" enctype="multipart/form-data">
                     {{ csrf_field() }}
                     <h4 class="mt-20">Nome Completo</h4>
                     <input class="input-box" type="text" name="nome" required>
@@ -101,9 +93,43 @@
                 </form>
             </div>
         </div>
+        <div id="lista-inscritos" class="equal-height-grid-top" style="display: none">
+            <div class="grid-34 offset-1">
+                <table style="width:100%">
+                    <tr>
+                        <th>Nome</th>
+                        <th>Email</th>
+                        <th>CPF</th>
+                        <th>Cidade</th>
+                        <th>Telefone</th>
+                        <th>Tipo</th>
+                        <th>Status</th>
+                    </tr>
+                    @forelse($inscritos as $inscrito)
+                        <tr>
+                            <td><p style="margin-left: 30px;">{{ $inscrito->nome }}</p></td>
+                            <td><p style="margin-left: 30px;">{{ $inscrito->email }}</p></td>
+                            <td><p style="margin-left: 30px;">{{ $inscrito->documento }}</p></td>
+                            <td><p style="margin-left: 30px;">{{ $inscrito->cidade }}</p></td>
+                            <td><p style="margin-left: 30px;">{{ $inscrito->telefone }}</p></td>
+                            <td><p style="margin-left: 30px;">{{ $inscrito->tipo }}</p></td>
+                            <td>
+                                @if( $inscrito->status  == 1)
+                                    <p style="margin-left: 30px;">PENDENTE</p>
+                                @elseif( $inscrito->status == 2)
+                                    <p style="margin-left: 30px;">APROVADO</p>
+                                @else
+                                    <p style="margin-left: 30px;">CANCELADO</p>
+                                @endif
+                            </td>
+                        </tr>
+                    @empty
+                        <h1>Nenhum Inscrito!</h1>
+                    @endforelse
+                </table>
+            </div>
+        </div>
     </section>
-
-
     <section class="section back-white color-black py-30">
         <div class="grid-34 offset-1" data-aos="fade-up" data-aos-offset="300">
             <h2 class="title-yellow">Apoio</h2>
@@ -155,6 +181,8 @@
         var senha = document.getElementById("senha").value;
         if (senha.toUpperCase() == "MICTMR") {
             document.getElementById("formulario-senha").style.display = 'none';
+            document.getElementById("lista-inscritos").style.display = 'none';
+            document.getElementById("formulario-cadastro").style.display = 'none';
             document.getElementById("formulario-menu").style.display = 'block';
         }
     }
@@ -164,14 +192,21 @@
         if (senha.toUpperCase() == "MICTMR") {
             document.getElementById("formulario-senha").style.display = 'none';
             document.getElementById("formulario-menu").style.display = 'none';
+            document.getElementById("lista-inscritos").style.display = 'none';
             document.getElementById("formulario-cadastro").style.display = 'block';
         }
+    }
+
+    function onClickListaInscritos() {
+        document.getElementById("formulario-senha").style.display = 'none';
+        document.getElementById("formulario-menu").style.display = 'none';
+        document.getElementById("formulario-cadastro").style.display = 'none';
+        document.getElementById("lista-inscritos").style.display = 'block';
     }
 
     function onLostFocusDocumento() {
         documento = document.getElementById("documento");
         var size = documento.value.length;
-        console.log(size);
         if (size < 11) {
             documento.value = '';
         }
