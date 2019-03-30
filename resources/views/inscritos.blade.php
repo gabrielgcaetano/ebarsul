@@ -9,6 +9,7 @@
     <link href="{{ url('css/fonts.googleapis.com/csse38d.css?family=Oswald:300,400,500,600,700')}}" rel="stylesheet">
     <link rel="stylesheet" href="{{ url('css/global.min.css') }}" media="screen">
     <script src="{{ url('scripts/dist/modernizr.js')}}"></script>
+    <script src="{{ url('js/logica.js')}}"></script>
 
     <!-- Favicon and touch icons -->
     <link rel="apple-touch-icon" sizes="57x57" href="{{ url('images/fav/apple-icon-57x57.png')}}">
@@ -32,7 +33,7 @@
         }
     </style>
 </head>
-<body>
+<body onload="autenticacaoAreaAdministrativa({{$param}})">
 
 @include('inc.head')
 
@@ -48,7 +49,7 @@
                 <h2 class="title-yellow mt-50">Área Restrita</h2>
                 <h4 class="mt-20">Senha</h4>
                 <input id="senha" class="input-box" type="password" name="senha">
-                <a onclick="onClickFormulario()" class="btn btn-yellow mt-20">
+                <a onclick="onClickFormularioOrganizacao()" class="btn btn-yellow mt-20">
                     Entrar
                 </a>
             </div>
@@ -64,10 +65,11 @@
                         <th>Telefone</th>
                         <th>Tipo</th>
                         <th>Status</th>
+                        <th>Opção</th>
                         <th>Comprovante</th>
                     </tr>
                     @forelse($inscritos as $inscrito)
-                        <tr >
+                        <tr>
                             <td><p style="margin-left: 30px;">{{ $inscrito->nome }}</p></td>
                             <td><p style="margin-left: 30px;">{{ $inscrito->email }}</p></td>
                             <td><p style="margin-left: 30px;">{{ $inscrito->documento }}</p></td>
@@ -83,13 +85,38 @@
                                     <p style="margin-left: 30px;">CANCELADO</p>
                                 @endif
                             </td>
+                            <td>
+                                <li style="list-style: none">
+                                    <div>
+                                        <a href="{{route('confirmar', ['id' => $inscrito['id']])}}" target="_parent">
+                                            <button type="submit" class="btn btn-yellow mt-20"
+                                                    style="font-size:12px;width:100%; height:100%"
+                                                    href="{{route('confirmar', ['id' => $inscrito['id']])}}">
+                                                Aceitar
+                                            </button>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li style="list-style: none">
+                                    <div>
+                                        <a href="{{route('rejeitar', ['id' => $inscrito['id']])}}" target="_parent">
+                                            <button type="submit" class="btn btn-yellow mt-20"
+                                                    style="font-size:12px;width:100%; height:100%">
+                                                Rejeitar
+                                            </button>
+                                        </a>
+                                    </div>
+                                </li>
+                            </td>
                             <td style="margin-left: 30px;">
                                 <form action="{{route("inscricao-download-comprovante")}}" method="post"
                                       enctype="multipart/form-data" name="form">
                                     {{ csrf_field() }}
                                     <input type="text" name="nome" value="{{ $inscrito->arquivo }}" required
                                            style="display: none">
-                                    <button type="submit" class="btn btn-yellow mt-20"> Baixar Comprovante</button>
+                                    <button type="submit" class="btn btn-yellow mt-20" style="width:100%; height:100%">
+                                        Baixar Comprovante
+                                    </button>
                                 </form>
                             </td>
                         </tr>
@@ -98,7 +125,14 @@
                     @endforelse
                 </table>
 
-
+                <form>
+                    <a href="{{route('inscricao-baixar')}}" target="_parent">
+                        <button type="button" class="btn btn-yellow mt-20"
+                                style="font-size:12px;width:100%; height:100%">
+                            Baixar
+                        </button>
+                    </a>
+                </form>
             </div>
         </div>
     </section>
@@ -150,14 +184,5 @@
 <script src="{{ url('js/jquery-3.2.1.min.js') }}"></script>
 <script src="{{ url('js/counter.min.js') }}"></script>
 <script src="{{ url('js/global.min.js') }}"></script>
-<script>
-    function onClickFormulario() {
-        var senha = document.getElementById("senha").value;
-        if (senha.toUpperCase() == "MICTMR") {
-            document.getElementById("formulario-senha").style.display = 'none';
-            document.getElementById("lista-inscritos").style.display = 'block';
-        }
-    }
-</script>
 </body>
 </html>

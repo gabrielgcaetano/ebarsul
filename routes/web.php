@@ -28,6 +28,12 @@ $this->get('inscricao-enviar-email-inscrito', 'Admin\InscricaoController@enviaEm
  *   Responsável por enviar email a organização.
  */
 $this->get('inscricao-enviar-email-organizacao', 'Admin\InscricaoController@enviaEmailOrganizacao')->name('inscricao-enviar-email-organizacao');
+
+/*
+ *   Responsável por baixar lista de inscritos.
+ */
+$this->get('inscricao-baixar', 'Admin\InscricaoController@listaInscritosBaixar')->name('inscricao-baixar');
+
 /*
  *  Responsável por confirmar a inscrição de um inscrito.
  */

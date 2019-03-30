@@ -11,12 +11,14 @@ class ContatoController extends Controller
 {
     public function index()
     {
-        return view('contato');
+        $param = false;
+        return view('contato', compact('param'));
     }
 
     public function enviaEmail(Request $request){
         Mail::to('gabriel.goulartcaetano@gmail.com')
             ->send(new SendMailUser($request->all()));
-        echo 'Enviado com Sucesso!';
+        $param = true;
+        return view('contato', compact('param'));
     }
 }

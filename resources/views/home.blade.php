@@ -9,6 +9,7 @@
     <link href="{{ url('css/fonts.googleapis.com/csse38d.css?family=Oswald:300,400,500,600,700')}}" rel="stylesheet">
     <link rel="stylesheet" href="{{ url('css/global.min.css') }}" media="screen">
     <script src="{{ url('scripts/dist/modernizr.js')}}"></script>
+    <script src="{{ url('js/logica.js')}}"></script>
 
     <!-- Favicon and touch icons -->
     <link rel="apple-touch-icon" sizes="57x57" href="{{ url('images/fav/apple-icon-57x57.png')}}">
@@ -25,14 +26,20 @@
     <link rel="icon" type="image/png" sizes="96x96" href="{{ url('images/fav/favicon-96x96.png')}}">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ url('images/fav/favicon-16x16.png')}}">
 </head>
-<body>
+<body onLoad="atualizaContador()">
 
 @include('inc.head')
 
 <main>
     <section class="section back-black color-white py-30">
         <div class="equal-height-grid-top">
-            <div class="grid-16 offset-1" data-aos="fade-right" data-aos-offset="300">
+            <div class="grid-34">
+                <h1 style="font-size: 40px" id="contador" align="center"></h1>
+            </div>
+        </div>
+        <br/>
+        <div class="equal-height-grid-top">
+            <div class="grid-16 offset-1">
                 <h2 class="title-yellow">O evento</h2>
                 <p>O encontro nacional de motociclistas está de volta! A <strong>Sub-Sede Contestado</strong> sediará o
                     próximo encontro dos <strong>Bodes do Asfalto da Região Sul do Brasil - V EBAR SUL</strong>.</p>
@@ -46,7 +53,7 @@
                 <p>Somos cidadãos que preservamos os ensinamentos Maçônicos.</p>
                 <p>Somos Irmãos na Ordem e no Motociclismo.</p>
             </div>
-            <div class="grid-16 offset-2" data-aos="fade-left" data-aos-offset="300">
+            <div class="grid-16 offset-2">
                 <h2 class="title-yellow mt-50-mobile">Moto Clube Bodes do Asfalto</h2>
                 <p>O <strong>Moto Clube Bodes do Asfalto</strong> surgiu a partir de discussões entre maçons,
                     integrantes da lista de discussão de Atalaia, em primeiro de agosto de 2003 e tem sua sede nacional

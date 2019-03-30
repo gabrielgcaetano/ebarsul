@@ -9,6 +9,7 @@
     <link href="{{ url('css/fonts.googleapis.com/csse38d.css?family=Oswald:300,400,500,600,700')}}" rel="stylesheet">
     <link rel="stylesheet" href="{{ url('css/global.min.css') }}" media="screen">
     <script src="{{ url('scripts/dist/modernizr.js')}}"></script>
+    <script src="{{ url('js/logica.js')}}"></script>
 
     <!-- Favicon and touch icons -->
     <link rel="apple-touch-icon" sizes="57x57" href="{{ url('images/fav/apple-icon-57x57.png')}}">
@@ -39,12 +40,13 @@
 <main>
     <section class="section back-black color-white py-30">
         <div class="equal-height-grid-top">
-            <div class="grid-34" data-aos="fade-right" data-aos-offset="300">
+            <div class="grid-34">
                 <h1 style="font-size: 40px" id="contador" align="center"></h1>
             </div>
         </div>
+        <br><br>
         <div id="formulario-senha" class="equal-height-grid-top">
-            <div class="grid-34 offset-1" data-aos="fade-up" data-aos-offset="300">
+            <div class="grid-34 offset-1">
                 <h2 class="title-yellow mt-50">Lista de inscritos</h2>
                 <h4 class="mt-20">Sois Maçom?</h4>
                 <input id="senha" class="input-box" type="password" name="senha">
@@ -105,30 +107,30 @@
                 <table style="width:100%">
                     <tr>
                         <th>Nome</th>
-                        <th>Email</th>
-                        <th>CPF</th>
+                        {{--<th>Email</th>--}}
+                        {{--<th>CPF</th>--}}
                         <th>Cidade</th>
-                        <th>Telefone</th>
+                        {{--<th>Telefone</th>--}}
                         <th>Tipo</th>
-                        <th>Status</th>
+                        {{--<th>Status</th>--}}
                     </tr>
                     @forelse($inscritos as $inscrito)
                         <tr>
                             <td><p style="margin-left: 30px;">{{ $inscrito->nome }}</p></td>
-                            <td><p style="margin-left: 30px;">{{ $inscrito->email }}</p></td>
-                            <td><p style="margin-left: 30px;">{{ $inscrito->documento }}</p></td>
+                            {{--<td><p style="margin-left: 30px;">{{ $inscrito->email }}</p></td>--}}
+                            {{--<td><p style="margin-left: 30px;">{{ $inscrito->documento }}</p></td>--}}
                             <td><p style="margin-left: 30px;">{{ $inscrito->cidade }}</p></td>
-                            <td><p style="margin-left: 30px;">{{ $inscrito->telefone }}</p></td>
+                            {{--<td><p style="margin-left: 30px;">{{ $inscrito->telefone }}</p></td>--}}
                             <td><p style="margin-left: 30px;">{{ $inscrito->tipo }}</p></td>
-                            <td>
-                                @if( $inscrito->status  == 1)
-                                    <p style="margin-left: 30px;">PENDENTE</p>
-                                @elseif( $inscrito->status == 2)
-                                    <p style="margin-left: 30px;">APROVADO</p>
-                                @else
-                                    <p style="margin-left: 30px;">CANCELADO</p>
-                                @endif
-                            </td>
+                            {{--<td>--}}
+                            {{--@if( $inscrito->status  == 1)--}}
+                            {{--<p style="margin-left: 30px;">PENDENTE</p>--}}
+                            {{--@elseif( $inscrito->status == 2)--}}
+                            {{--<p style="margin-left: 30px;">APROVADO</p>--}}
+                            {{--@else--}}
+                            {{--<p style="margin-left: 30px;">CANCELADO</p>--}}
+                            {{--@endif--}}
+                            {{--</td>--}}
                         </tr>
                     @empty
                         <h1>Nenhum Inscrito!</h1>
@@ -183,74 +185,5 @@
 <script src="{{ url('js/jquery-3.2.1.min.js') }}"></script>
 <script src="{{ url('js/counter.min.js') }}"></script>
 <script src="{{ url('js/global.min.js') }}"></script>
-<script>
-    function onClickFormulario() {
-        var senha = document.getElementById("senha").value;
-        if (senha.toUpperCase() == "MICTMR") {
-            document.getElementById("formulario-senha").style.display = 'none';
-            document.getElementById("lista-inscritos").style.display = 'none';
-            document.getElementById("formulario-cadastro").style.display = 'none';
-            document.getElementById("formulario-menu").style.display = 'block';
-        }
-    }
-
-    function onClickFormularioInscricao() {
-        var senha = document.getElementById("senha").value;
-        if (senha.toUpperCase() == "MICTMR") {
-            document.getElementById("formulario-senha").style.display = 'none';
-            document.getElementById("formulario-menu").style.display = 'none';
-            document.getElementById("lista-inscritos").style.display = 'none';
-            document.getElementById("formulario-cadastro").style.display = 'block';
-        }
-    }
-
-    function onClickListaInscritos() {
-        document.getElementById("formulario-senha").style.display = 'none';
-        document.getElementById("formulario-menu").style.display = 'none';
-        document.getElementById("formulario-cadastro").style.display = 'none';
-        document.getElementById("lista-inscritos").style.display = 'block';
-    }
-
-    function onLostFocusDocumento() {
-        documento = document.getElementById("documento");
-        var size = documento.value.length;
-        if (size < 11) {
-            documento.value = '';
-        }
-    }
-
-    var YY = 2019;
-    var MM = 12;
-    var DD = 1;
-    var HH = 9;
-    var MI = 0;
-    var SS = 0;
-
-    function atualizaContador() {
-        var hoje = new Date();
-        var futuro = new Date(YY, MM - 1, DD, HH, MI, SS);
-        var ss = parseInt((futuro - hoje) / 1000);
-        var mm = parseInt(ss / 60);
-        var hh = parseInt(mm / 60);
-        var dd = parseInt(hh / 24);
-        ss = ss - (mm * 60);
-        mm = mm - (hh * 60);
-        hh = hh - (dd * 24);
-        var faltam = 'Faltam ';
-        faltam += (dd && dd > 1) ? dd + ' dias, ' : (dd == 1 ? '1 dia, ' : '');
-        faltam += (toString(hh).length) ? hh + ' hr, ' : '';
-        faltam += (toString(mm).length) ? mm + ' min e ' : '';
-        faltam += ss + ' seg';
-
-        if (dd + hh + mm + ss > 0) {
-            document.getElementById('contador').innerHTML = faltam;
-            setTimeout(atualizaContador, 1000);
-        }
-        else {
-            document.getElementById('contador').innerHTML = 'Evento Começou!!!!';
-            setTimeout(atualizaContador, 1000);
-        }
-    }
-</script>
 </body>
 </html>

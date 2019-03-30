@@ -33,7 +33,7 @@
     <section class="section back-black color-white py-30">
 
         <div class="equal-height-grid">
-            <div class="grid-16 offset-1" data-aos="fade-right" data-aos-offset="300">
+            <div class="grid-16 offset-1">
                 <h2 class="title-yellow">Gêmeas do Iguaçu</h2>
                 <p>O território composto pelas cidades de Porto União - Santa Catarina e União da Vitória - Paraná é
                     conhecido como <strong>“Gêmeas do Iguaçu”</strong>.</p>

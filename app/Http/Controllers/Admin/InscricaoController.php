@@ -16,9 +16,10 @@ class InscricaoController extends Controller
      */
     public function index(Inscrito $inscrito)
     {
-        $inscritos = $inscrito::all();
+        $inscritos = $inscrito::all()->where("status", "2");
         return view('inscricao', compact('inscritos'));
     }
+
     /*
      *   Save do formulario de inscricao
      */
@@ -28,6 +29,7 @@ class InscricaoController extends Controller
         $retorno = $inscrito->salvar($dataForm);
         return redirect()->route('inscricao-enviar-email-inscrito');
     }
+
     /*
      *   Responsavel pelo download
      */
@@ -38,6 +40,7 @@ class InscricaoController extends Controller
 //        return view('inscricao');
 
     }
+
     /*
      *   Responsável pelo email enviado para o inscrito
      */
@@ -49,6 +52,7 @@ class InscricaoController extends Controller
 
         return redirect()->route('inscricao-enviar-email-organizacao');
     }
+
     /*
      *   Responsável pelo email enviado para o organizador
      */
@@ -57,31 +61,46 @@ class InscricaoController extends Controller
         $ins = Inscrito::orderBy('id', 'desc')->first();
         Mail::to("gabriel.goulartcaetano@gmail.com")
             ->send(new SendMailOrganizacao($ins));
-        return view('inscricao');
+
+        $inscritos = $inscrito::all();
+        return view('inscricao', compact('inscritos'));
     }
+
     /*
      *   Responsável por confirmar a inscrição
      */
     public function confirmar(int $id, Inscrito $inscrito)
     {
         $retorno = $inscrito::confirmar($id);
-        dd($retorno);
+        $inscritos = $inscrito::all();
+        $param = true;
+        return view('inscritos', compact('inscritos', 'param'));
     }
+
     /*
      *   Responsável por rejeitar a inscrição
      */
     public function rejeitar(int $id, Inscrito $inscrito)
     {
         $retorno = $inscrito::rejeitar($id);
-        dd($retorno);
+        $inscritos = $inscrito::all();
+        $param = true;
+        return view('inscritos', compact('inscritos', 'param'));
     }
 
     /*
      *   Responsável pela tela de inscritos adm
      */
-    public function inscritos(Inscrito $inscrito){
-        $inscritos = $inscrito::all();
-        return view('inscritos', compact('inscritos'));
+    public function inscritos(Inscrito $inscrito)
+    {
+        $inscritos = $inscrito::all()->sortBy('status');
+        $param = false;
+        return view('inscritos', compact('inscritos', 'param'));
+    }
 
+    public function listaInscritosBaixar(Inscrito $inscrito)
+    {
+        $inscritos = $inscrito::all()->sortBy('status');
+        return view('formulario-impressao-inscritos', compact('inscritos'));
     }
 }

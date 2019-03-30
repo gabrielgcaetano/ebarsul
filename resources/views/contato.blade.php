@@ -9,6 +9,7 @@
     <link href="{{ url('css/fonts.googleapis.com/csse38d.css?family=Oswald:300,400,500,600,700')}}" rel="stylesheet">
     <link rel="stylesheet" href="{{ url('css/global.min.css') }}" media="screen">
     <script src="{{ url('scripts/dist/modernizr.js')}}"></script>
+    <script src="{{ url('js/logica.js')}}"></script>
 
     <!-- Favicon and touch icons -->
     <link rel="apple-touch-icon" sizes="57x57" href="{{ url('images/fav/apple-icon-57x57.png')}}">
@@ -25,20 +26,24 @@
     <link rel="icon" type="image/png" sizes="96x96" href="{{ url('images/fav/favicon-96x96.png')}}">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ url('images/fav/favicon-16x16.png')}}">
 </head>
-<body>
+<body onload="enviadoEmail({{$param}})">
 
 @include('inc.head')
 
 <main>
     <section class="section back-black color-white py-30">
-        <div class="grid-34 offset-1" data-aos="fade-down" data-aos-offset="300">
-            <h2 class="title-yellow">Contato</h2>
+        <div align="center" id="mensagem-envio-email">
+            <h1 style="font-size: 30px">Contato feito com sucesso</h1>
+            <h5 style="font-size: 25px">Em breve você recebera o contato da equipe.</h5>
+        </div>
+        <div class="grid-34 offset-1" data-aos="fade-left">
+                        <h2 class="title-yellow">Contato</h2>
             <p>Fale conosco utilizando o formulário de contato abaixo:</p>
         </div>
         <form class="form-contact" method="POST" action="{{ route('envio-email' )}}">
-            <div class="equal-height-grid-top">
+            <div class="equal-height-grid-top" data-aos="fade-left">
                 {!! csrf_field() !!}
-                <div class="grid-16 offset-1" data-aos="fade-right" data-aos-offset="100">
+                <div class="grid-16 offset-1" data-aos="fade-right">
                     <p>*Nome:</p>
                     <input class="input-box" type="text" name="nome" required data-msg-required="Este campo é obrigatório.">
                     <p class="mt-20">*E-mail:</p>
@@ -47,7 +52,7 @@
                     <p class="mt-20">*Telefone:</p>
                     <input class="input-box phone" type="phone" name="telefone" required data-msg-required="Este campo é obrigatório.">
                 </div>
-                <div class="grid-16 offset-2" data-aos="fade-left" data-aos-offset="100">
+                <div class="grid-16 offset-2" data-aos="fade-right">
                     <div class="textarea-content">
                         <p>Mensagem*:</p>
                         <textarea class="textarea-box" name="message" required data-msg-required="Este campo é obrigatório."></textarea>

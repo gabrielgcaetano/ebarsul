@@ -32,7 +32,7 @@
 <main>
     <section class="section back-black color-white py-30">
         <div class="equal-height-grid">
-            <div class="grid-34 offset-1" data-aos="fade-down" data-aos-offset="300">
+            <div class="grid-34 offset-1" data-aos="fade-left">
                 <h2 class="title-yellow">Hospedagem</h2>
                 <p class="m-small">Relação de hotéis parceiros do evento:</p>
                 <p><strong>Obs.:</strong> No momento da reserva, é importante mencionar que pertencem ao <strong>Moto Clube Bodes do Asfalto</strong>.</p>

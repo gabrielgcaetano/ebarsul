@@ -32,7 +32,7 @@
 <main>
     <section class="section back-black color-white py-30">
         <div class="equal-height-grid">
-            <div class="grid-34 offset-1" data-aos="fade-up" data-aos-offset="300">
+            <div class="grid-34 offset-1">
                 <h2 class="title-yellow">Programação</h2>
                 <p>Confira a programação completa do <strong>V EBAR SUL - 2018</strong>:</p>
                 <h2 class="title-yellow mt-20">16 de Novembro – Sexta-feira</h2>
