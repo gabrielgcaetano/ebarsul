@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <title>V EBAR SUL - 2018 | 16 a 18 de novembro de 2018 em União da Vitória - PR</title>
+    <title>V EBAR SUL - 2019 | 16 a 18 de novembro de 2019 em União da Vitória - PR</title>
     <meta name="description"
-          content="V EBAR SUL - 2018 | 16 a 18 de novembro de 2018 em União da Vitória - PR | Moto Clube Bodes do Asfalto | Sub-Sede - Contestado PR/SC">
+          content="V EBAR SUL - 2019 | 16 a 18 de novembro de 2019 em União da Vitória - PR | Moto Clube Bodes do Asfalto | Sub-Sede - Contestado PR/SC">
     <link href="{{ url('css/fonts.googleapis.com/csse38d.css?family=Oswald:300,400,500,600,700')}}" rel="stylesheet">
     <link rel="stylesheet" href="{{ url('css/global.min.css') }}" media="screen">
     <script src="{{ url('scripts/dist/modernizr.js')}}"></script>
@@ -196,10 +196,10 @@
     <section class="section back-black color-white py-30">
         <div class="grid-34 offset-1 text-center">
             <img class="img-center"
-                 alt="V EBAR SUL - 2018 | 16 a 18 de novembro de 2018 em União da Vitória - PR | Moto Clube Bodes do Asfalto | Sub-Sede - Contestado PR/SC"
+                 alt="V EBAR SUL - 2019 | 16 a 18 de novembro de 2019 em União da Vitória - PR | Moto Clube Bodes do Asfalto | Sub-Sede - Contestado PR/SC"
                  src="{{ url('images/lgo/v-ebar-sul-small.png') }}" data-aos="zoom-in">
             <div data-aos="fade-up">
-                <p class="big mt-20">V EBAR SUL - 2018</p>
+                <p class="big mt-20">V EBAR SUL - 2019</p>
                 <p class="big mb-10">16 a 18 de novembro</p>
                 <p>Sub-Sede - Contestado PR/SC <span class="triangle-right">Moto Clube Bodes do Asfalto</span></p>
             </div>
