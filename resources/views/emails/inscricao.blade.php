@@ -26,12 +26,12 @@
                             </tr>
                             <tr>
                                 <td style="font-family: verdana; font-size: 13px; color: #334A6C;text-align: center;letter-spacing: 1px;">
-                                    O evento acontecerá no dia ??/??/???? as ??:??
+                                    O evento acontecerá no dia 08/06/2019 apartir das 10:00
                                 </td>
                             </tr>
                             <tr>
                                 <td style="font-family: verdana; font-size: 13px; color: #334A6C;text-align: center;letter-spacing: 1px;">
-                                    Para mais informações visite nosso site.
+                                    Para mais informações da programação visite nosso site.
                                 </td>
                             </tr>
                         </table>

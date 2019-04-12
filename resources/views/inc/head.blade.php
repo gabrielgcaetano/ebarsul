@@ -2,7 +2,7 @@
     <div class="mobile-content">
         <div class="text-center">
             <img class="ml-45"
-                 alt="V EBAR SUL - 2019 | 16 a 18 de novembro de 2019 em União da Vitória - PR | Moto Clube Bodes do Asfalto | Sub-Sede - Contestado PR/SC"
+                 alt="EBA ALMOÇO - 2019 | 8 de junho de 2019 em Pelotas - RS | Moto Clube Bodes do Asfalto | Sub-Sede - Contestado PR/SC"
                  src="{{ url('images/lgo/v-ebar-sul-big.png') }}">
         </div>
     </div>
@@ -13,14 +13,14 @@
         <div class="menu-content">
             <ul class="menu-list">
                 <h1 class="">
-                    <a class="fade menu-logo logo-big" href="{{ route('evento') }}" target="_self" data-aos="zoom-in"
+                    <a class="fade menu-logo logo-big"  href="{{ route('evento') }}" target="_self" data-aos="zoom-in"
                        data-aos-duration="1000">
-                        <img alt="V EBAR SUL - 2019 | 16 a 18 de novembro de 2019 em União da Vitória - PR | Moto Clube Bodes do Asfalto | Sub-Sede - Contestado PR/SC"
-                             src="{{ url('images/lgo/v-ebar-sul-big.png') }}">
+                        <img alt="EBA ALMOÇO - 2019 | 8 de junho de 2019 em Pelotas - RS | Moto Clube Bodes do Asfalto | Sub-Sede - Contestado PR/SC"
+                             src="{{ url('images/lgo/logo-ebalmoco-para-web.png') }}" style="width: 250px">
                     </a>
                     <a class="fade menu-logo logo-small" href="{{ route('evento') }}" target="_self">
-                        <img alt="V EBAR SUL - 2019 | 16 a 18 de novembro de 2019 em União da Vitória - PR | Moto Clube Bodes do Asfalto | Sub-Sede - Contestado PR/SC"
-                             src="{{ url('images/lgo/v-ebar-sul-small.png') }}">
+                        <img alt="EBA ALMOÇO - 2019 | 8 de junho de 2019 em Pelotas - RS | Moto Clube Bodes do Asfalto | Sub-Sede - Contestado PR/SC"
+                             src="{{ url('images/lgo/logo-ebalmoco-para-web.png') }}">
                     </a>
                 </h1>
                 <li class="menu-item" data-aos="fade-down">
@@ -30,7 +30,7 @@
                     <a href="{{ route('inscricao') }}" target="_self" class="menu-link">Inscrição</a>
                 </li>
                 <li class="menu-item menu-third-item" data-aos="fade-down">
-                    <a href="{{ route('cidade') }}" target="_self" class="menu-link">Gêmeas do Iguaçu</a>
+                    <a href="{{ route('cidade') }}" target="_self" class="menu-link">Princesa do Sul</a>
                 </li>
                 <li class="menu-item" data-aos="fade-down">
                     <a href="{{ route('programacao') }}" target="_self" class="menu-link">Programação</a>

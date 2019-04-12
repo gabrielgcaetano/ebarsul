@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <title>V EBAR SUL - 2019 | 16 a 18 de novembro de 2019 em União da Vitória - PR</title>
+    <title>EBA ALMOÇO - 2019 | 8 de junho de 2019 em Pelotas - RS</title>
     <meta name="description"
-          content="V EBAR SUL - 2019 | 16 a 18 de novembro de 2019 em União da Vitória - PR | Moto Clube Bodes do Asfalto | Sub-Sede - Contestado PR/SC">
+          content="EBA ALMOÇO - 2019 | 8 de junho de 2019 em Pelotas - RS | Moto Clube Bodes do Asfalto | Sub-Sede - Contestado PR/SC">
     <link href="{{ url('css/fonts.googleapis.com/csse38d.css?family=Oswald:300,400,500,600,700')}}" rel="stylesheet">
     <link rel="stylesheet" href="{{ url('css/global.min.css') }}" media="screen">
     <script src="{{ url('scripts/dist/modernizr.js')}}"></script>
@@ -139,45 +139,11 @@
             </div>
         </div>
     </section>
-    <section class="section back-white color-black py-30">
-        <div class="grid-34 offset-1" data-aos="fade-up" data-aos-offset="300">
-            <h2 class="title-yellow">Apoio</h2>
-            <img class="img-inline-block mx-20 img-ptr-00"
-                 src="{{ url('images/lgo/prefeitura-de-uniao-da-vitoria.png') }}"
-                 alt="Prefeitura de União da Vitória">
-        </div>
-        <div class="grid-34 offset-1" data-aos="fade-up" data-aos-offset="300">
-            <h2 class="title-yellow mt-50">Patrocínio</h2>
-            <img class="img-inline-block mx-20 img-ptr-01" src="{{ url('images/lgo/breyer.png') }}"
-                 alt="Breyer naturais e orgânicos">
-            <img class="img-inline-block mx-20 img-ptr-02" src="{{ url('images/lgo/steinhaeger.png') }}"
-                 alt="Steinhaeger Doble W">
-            <img class="img-inline-block mx-20 img-ptr-03" src="{{ url('images/lgo/laboratorio-galileu.png') }}"
-                 alt="Laboratório Galileu">
-            <img class="img-inline-block mx-20 img-ptr-04" src="{{ url('images/lgo/in-brasil.png') }}" alt="In Brasil">
-            <img class="img-inline-block mx-20 img-ptr-05" src="{{ url('images/lgo/capimar.png') }}"
-                 alt="Ervateira Capimar">
-            <img class="img-inline-block mx-20 img-ptr-05" src="{{ url('images/lgo/bwm-seguros.png') }}"
-                 alt="BWM Seguros">
-            <img class="img-inline-block mx-20 img-ptr-05"
-                 src="{{ url('images/lgo/desigual-corretora-de-seguros.png') }}"
-                 alt="Desigual Corretora de Seguros">
-        </div>
-    </section>
-    <section class="section back-white color-black py-5">
-    </section>
-    <section class="section back-black color-white py-30">
-        <div class="grid-34 offset-1 text-center">
-            <img class="img-center"
-                 alt="V EBAR SUL - 2019 | 16 a 18 de novembro de 2019 em União da Vitória - PR | Moto Clube Bodes do Asfalto | Sub-Sede - Contestado PR/SC"
-                 src="{{ url('images/lgo/v-ebar-sul-small.png') }}" data-aos="zoom-in">
-            <div data-aos="fade-up">
-                <p class="big mt-20">V EBAR SUL - 2019</p>
-                <p class="big mb-10">16 a 18 de novembro</p>
-                <p>Sub-Sede - Contestado PR/SC <span class="triangle-right">Moto Clube Bodes do Asfalto</span></p>
-            </div>
-        </div>
-    </section>
+
+    @include('inc.patrocinador')
+
+    @include('inc.subFooter')
+
 </main>
 
 @include('inc.footer')
