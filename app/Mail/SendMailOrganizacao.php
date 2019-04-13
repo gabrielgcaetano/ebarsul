@@ -30,6 +30,7 @@ class SendMailOrganizacao extends Mailable
     {
         $dados = $this->dados;
         return $this->from('teste@spacecode.tech', 'Atendimento - EBAR')
+            ->to('gabriel.goulartcaetano@gmail.com')
             ->subject("Cadastro de Membro Evento")
             ->attach(storage_path("app/comprovantes/" . $dados['arquivo']))
             ->view('emails.organizacao', compact('dados'));

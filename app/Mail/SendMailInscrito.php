@@ -30,7 +30,8 @@ class SendMailInscrito extends Mailable
     {
         $dados = $this->dados;
         return $this->from('teste@spacecode.tech', 'Atendimento - EBAR')
-            ->subject("Envio de Contato")
+            ->to($dados['email'])
+            ->subject("Inscrição Recebida")
             ->view('emails.inscricao', compact('dados'));
     }
 }
