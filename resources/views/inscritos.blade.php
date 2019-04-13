@@ -64,6 +64,7 @@
                         <th>Cidade</th>
                         <th>Telefone</th>
                         <th>Tipo</th>
+                        <th>Camiseta</th>
                         <th>Status</th>
                         <th>Opção</th>
                         <th>Comprovante</th>
@@ -76,6 +77,7 @@
                             <td><p style="margin-left: 30px;">{{ $inscrito->cidade }}</p></td>
                             <td><p style="margin-left: 30px;">{{ $inscrito->telefone }}</p></td>
                             <td><p style="margin-left: 30px;">{{ $inscrito->tipo }}</p></td>
+                            <td><p style="margin-left: 30px;">{{ $inscrito->camiseta }}</p></td>
                             <td>
                                 @if( $inscrito->status  == 1)
                                     <p style="margin-left: 30px;">PENDENTE</p>

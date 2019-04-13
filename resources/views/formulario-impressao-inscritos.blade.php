@@ -47,6 +47,7 @@
                         <th>Cidade</th>
                         <th>Telefone</th>
                         <th>Tipo</th>
+                        <th>Camiseta</th>
                         <th>Status</th>
                     </tr>
                     @forelse($inscritos as $inscrito)
@@ -57,6 +58,7 @@
                             <td><p style="text-align: center;">{{ $inscrito->cidade }}</p></td>
                             <td><p style="text-align: center;">{{ $inscrito->telefone }}</p></td>
                             <td><p style="text-align: center;">{{ $inscrito->tipo }}</p></td>
+                            <td><p style="text-align: center;">{{ $inscrito->camiseta }}</p></td>
                             <td >
                                 @if( $inscrito->status  == 1)
                                     <p style="text-align: center;">PENDENTE</p>

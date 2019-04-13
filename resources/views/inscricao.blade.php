@@ -31,6 +31,45 @@
             border-collapse: collapse;
             align: center;
         }
+
+        /* The Modal (background) */
+        .modal {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 1; /* Sit on top */
+            padding-top: 100px; /* Location of the box */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgb(0, 0, 0); /* Fallback color */
+            background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+        }
+
+        /* Modal Content */
+        .modal-content {
+            background-color: #fefefe;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+        }
+
+        /* The Close Button */
+        .close {
+            color: #aaaaaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: #000;
+            text-decoration: none;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body onLoad="atualizaContador()">
@@ -94,6 +133,40 @@
                         <option value="irmao">Irmão</option>
                         <option value="cunhada">Cunhada</option>
                     </select>
+
+                    <h4 class="mt-20">Camisetas</h4>
+                    <select id="camiseta" name="camiseta" required>
+                        <option value="M-P">Masc. P</option>
+                        <option value="M-M">Masc. M</option>
+                        <option value="M-G">Masc. G</option>
+                        <option value="M-GG">Masc. GG</option>
+                        <option value="M-XGG">Masc. XGG</option>
+                        <option value="M-XXGG">Masc. XXGG</option>
+                        <option value="M-XXXGG">Masc. XXXGG</option>
+                        <option value="F-P">Fem. P</option>
+                        <option value="F-M">Fem. M</option>
+                        <option value="F-G">Fem. G</option>
+                        <option value="F-GG">Fem. GG</option>
+                        <option value="F-XGG">Fem. XGG</option>
+                        <option value="F-XXGG">Fem. XXGG</option>
+                        <option value="F-XXXGG">Fem. XXXGG</option>
+                    </select>
+                    <!-- Trigger/Open The Modal -->
+                    <h1><br></h1>
+                    <button id="myBtn" class="btn btn-yellow btn-sm">Ver tamanhos</button>
+
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+                        <span class="close">&times;</span>
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <img class="img-inline-block mx-20 img-ptr-02" style="width: 45%" src="{{ url('images/fto/camiseta-masculina.png') }}"
+                                 alt="Zuchelo - Incorporaçoes e Construções - Institucional">
+                            <img class="img-inline-block mx-20 img-ptr-02" style="width: 45%" src="{{ url('images/fto/camiseta-feminina.png') }}"
+                                 alt="Zuchelo - Incorporaçoes e Construções - Institucional">
+                        </div>
+
+                    </div>
                     <h4 class="mt-20">Anexo Comprovante de deposito.</h4>
                     <input type="file" name="arquivo" id="arquivo" required accept="image/*, application/pdf"><br>
                     <button type="submit" class="btn btn-yellow mt-20">
@@ -151,5 +224,34 @@
 <script src="{{ url('js/jquery-3.2.1.min.js') }}"></script>
 <script src="{{ url('js/counter.min.js') }}"></script>
 <script src="{{ url('js/global.min.js') }}"></script>
+
+<script>
+    // Get the modal
+    var modal = document.getElementById('myModal');
+
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks the button, open the modal
+    btn.onclick = function () {
+        modal.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+        modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+
 </body>
 </html>

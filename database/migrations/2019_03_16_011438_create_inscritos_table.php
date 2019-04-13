@@ -22,6 +22,7 @@ class CreateInscritosTable extends Migration
             $table->string('cidade');
             $table->string('tipo');
             $table->string('arquivo');
+            $table->string('camiseta');
             $table->integer('status');
             $table->timestamps();
         });
