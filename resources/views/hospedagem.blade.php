@@ -39,106 +39,123 @@
             </div>
         </div>
         <div class="equal-height-grid mt-50 bt-white pt-50">
-            <div class="grid-6 offset-6" data-aos="fade-right" data-aos-offset="100">
-                <img class="img-center" src="{{ url('images/lgo/hotel-10.jpg') }}">
+            <div class="grid-4 offset-4" data-aos="fade-right" data-aos-offset="100">
+                <img class="img-center" src="{{ url('images/lgo/lgo-mtower.png') }}">
+                {{--<img class="img-center" src="http://www.mtowerhotel.com.br/site/site-image/mtower-logo-preto.png">--}}
             </div>
-            <div class="grid-10 offset-1 text-align-mobile" data-aos="fade-right" data-aos-offset="100">
-                <h3 class="color-yellow mt-20-mobile">Hotel 10</h3>
-                <p class="m-small">Rodovia BR 476 - Trevo BR 153, 4501</p>
-                <p class="m-small">Bairro: Área Industrial</p>
-                <p class="m-small">Cidade: União da Vitória - PR</p>
-                <p class="m-small">Contato: Eliane</p>
-                <p class="m-small">Telefone: +55 (42) 3521-1010</p>
-                <p class="m-small">E-mail: <a class="color-white" href="mailto:reservasuniao@hotel10.com.br">reservasuniao@hotel10.com.br</a></p>
-                <a class="link color-yellow" href="https://www.hotel10.com.br/pt/unidade/uniao-da-vitoria#.WqBsFmrwbcc" target="_blank" class="m-small">Acessar website do hotel</a>
+            <div class="grid-8 offset-1 text-align-mobile" data-aos="fade-right" data-aos-offset="100">
+                <h3 class="color-yellow mt-20-mobile">M.Tower</h3>
+                <p class="m-small">Rua Félix da Cunha, 213</p>
+                <p class="m-small">Bairro: Centro</p>
+                <p class="m-small">Cidade: Pelotas - RS</p>
+                <p class="m-small">Contato: </p>
+                <p class="m-small">Telefone: +55 (53) 3027-5500</p>
+                <p class="m-small">E-mail: <a class="color-white" href=""></a></p>
+                <a class="link color-yellow" href="http://www.mtowerhotel.com.br/site/home" target="_blank" class="m-small">Acessar website do hotel</a>
             </div>
-            <div class="grid-6 offset-1 text-align-mobile" data-aos="fade-left" data-aos-offset="100">
+            <div class="grid-3 offset-1 text-align-mobile" data-aos="fade-left" data-aos-offset="100">
                 <h4 class="mt-20-mobile">Tarifas</h4>
-                <p class="m-small">Suíte single: R$ 150,00</p>
-                <p class="m-small">Suíte dupla/casal: R$ 200,00</p>
-                <p>Suíte tripla/quádrupla: R$ 255,00</p>
+                <p class="m-small">Suíte single R$ 0,00</p>
+                <p class="m-small">Suíte dupla/casal: R$ 0,00</p>
+                <p>Suíte tripla/quádrupla: R$ 0,00</p>
                 <h4 class="mt-20-mobile">Diferenciais</h4>
                 <p class="m-small small">Café da manhã incluso;</p>
                 <p class="m-small small">Internet;</p>
                 <p class="m-small small">Estacionamento.</p>
             </div>
+            <div class="grid-3 offset-3" data-aos="fade-right" data-aos-offset="100">
+                <img class="img-center" style="width:174px;height:174px;" src="{{ url('images/lgo/qrcode-mtower.png') }}">
+            </div>
         </div>
         <div class="equal-height-grid mt-50 bt-white pt-50">
-            <div class="grid-6 offset-6" data-aos="fade-right" data-aos-offset="100">
-                <img class="img-center" src="{{ url('images/lgo/hotel-riad.jpg') }}">
+            <div class="grid-4 offset-4" data-aos="fade-right" data-aos-offset="100">
+                <img class="img-center" src="{{ url('images/lgo/lgo-curi.png') }}">
+                {{--<img class="img-center" src="https://www.hotelcuri.com.br/css/images/logo.png">--}}
+                <br/>
+                <img class="img-center" style="width:100px;height:100px;" src="{{ url('images/lgo/lgo-versare.svg') }}">
             </div>
-            <div class="grid-10 offset-1 text-align-mobile" data-aos="fade-right" data-aos-offset="100">
-                <h3 class="color-yellow mt-20-mobile">Hotel Riad</h3>
-                <p class="m-small">Avenida Manoel Ribas, 490</p>
+            <div class="grid-8 offset-1 text-align-mobile" data-aos="fade-right" data-aos-offset="100">
+                <h3 class="color-yellow mt-20-mobile">Hotel Curi Executive</h3>
+                <p class="m-small">Rua General Osório, 719</p>
                 <p class="m-small">Bairro: Centro</p>
-                <p class="m-small">Cidade: União da Vitória - PR</p>
-                <p class="m-small">Contato: Nayara</p>
-                <p class="m-small">Telefone: +55 (42) 3521-1600</p>
-                <p class="m-small">E-mail: <a class="color-white" href="mailto:contato@hotelriad.com.br">contato@hotelriad.com.br</a></p>
-                <a class="link color-yellow" href="http://www.hotelriad.com.br/" target="_blank" class="m-small">Acessar website do hotel</a>
+                <p class="m-small">Cidade: Pelotas - RS</p>
+                <p class="m-small">GPS: 52&#176; 20' 35.00'' O|31&#176; 46' 00.52'' S</p>
+                <p class="m-small">Telefone: +55 (53) 3227-9955</p>
+                <p class="m-small">E-mail: <a class="color-white" href=""></a></p>
+                <a class="link color-yellow" href="https://www.hotelcuri.com.br/" target="_blank" class="m-small">Acessar website do hotel</a>
             </div>
-            <div class="grid-6 offset-1 text-align-mobile" data-aos="fade-left" data-aos-offset="100">
+            <div class="grid-3 offset-1 text-align-mobile" data-aos="fade-left" data-aos-offset="100">
                 <h4 class="mt-20-mobile">Tarifas</h4>
-                <p class="m-small">Apto single: R$ 119,00</p>
-                <p class="m-small">Apto duplo: R$ 189,00</p>
-                <p>Apto triplo: R$ 229,00</p>
+                <p class="m-small">Apto single: R$ 0,00</p>
+                <p class="m-small">Apto duplo: R$ 0,00</p>
+                <p>Apto triplo: R$ 0,00</p>
                 <h4 class="mt-20-mobile">Diferenciais</h4>
                 <p class="m-small small">Café da manhã incluso;</p>
                 <p class="m-small small">Internet;</p>
                 <p class="m-small small">Estacionamento;</p>
                 <p class="m-small small">Bikes para passeio.</p>
             </div>
+            <div class="grid-3 offset-3" data-aos="fade-right" data-aos-offset="100">
+                <img class="img-center" style="width:174px;height:174px;" src="{{ url('images/lgo/qrcode-curi-executive.png') }}">
+            </div>
         </div>
         <div class="equal-height-grid mt-50 bt-white pt-50">
-            <div class="grid-6 offset-6" data-aos="fade-right" data-aos-offset="100">
-                <img class="img-center" src="{{ url('images/lgo/san-rafael-hotel.jpg') }}">
+            <div class="grid-4 offset-4" data-aos="fade-right" data-aos-offset="100">
+                <img class="img-center" src="{{ url('images/lgo/lgo-curi-palace.svg') }}">
+                <br/>
+                <img class="img-center" style="width:100px;height:100px;" src="{{ url('images/lgo/lgo-versare.svg') }}">
             </div>
-            <div class="grid-10 offset-1 text-align-mobile" data-aos="fade-right" data-aos-offset="100">
-                <h3 class="color-yellow mt-20-mobile">San Rafael Hotel</h3>
-                <p class="m-small">Rua XV de novembro, 125</p>
+            <div class="grid-8 offset-1 text-align-mobile" data-aos="fade-right" data-aos-offset="100">
+                <h3 class="color-yellow mt-20-mobile">Curi Palace Hotel</h3>
+                <p class="m-small">Rua General Neto, 1279</p>
                 <p class="m-small">Bairro: Centro</p>
-                <p class="m-small">Cidade: Porto União - SC</p>
-                <p class="m-small">Contato: Estela</p>
-                <p class="m-small">Telefone: +55 (42) 3522-4344</p>
-                <p class="m-small">E-mail: <a class="color-white" href="mailto:hotelsanrafael.financeiro@yahoo.com.br">hotelsanrafael.financeiro@yahoo.com.br</a></p>
-                <a class="link color-yellow" href="http://www.hotelsanrafaelpu.com.br/" target="_blank" class="m-small">Acessar website do hotel</a>
+                <p class="m-small">Cidade: Pelotas - RS</p>
+                <p class="m-small">Contato: </p>
+                <p class="m-small">Telefone: +55 (53) 3227-7377</p>
+                <p class="m-small">Telefone: +55 (53) 3026-7171</p>
+                <p class="m-small">E-mail: <a class="color-white" href=""></a></p>
+                <a class="link color-yellow" href="https://www.curipalacehotel.com.br/" target="_blank" class="m-small">Acessar website do hotel</a>
             </div>
-            <div class="grid-6 offset-1 text-align-mobile" data-aos="fade-left" data-aos-offset="100">
+            <div class="grid-3 offset-1 text-align-mobile" data-aos="fade-left" data-aos-offset="100">
                 <h4 class="mt-20-mobile">Tarifas</h4>
-                <p class="m-small">Apto standard individual: R$ 90,00</p>
-                <p class="m-small">Apto standard duplo: R$ 150,00</p>
-                <p class="m-small">Apto standard triplo: R$ 220,00</p>
-                <p class="m-small">Apto executivo individual: R$ 125,00</p>
-                <p class="m-small">Apto executivo duplo: R$ 180,00</p>
-                <p class="m-small">Apto executivo triplo: R$ 240,00</p>
-                <p class="m-small">Apto superior individual: R$ 170,00</p>
-                <p>Apto superior duplo: R$ 230,00</p>
+                <p class="m-small">Apto standard individual: R$ 0,00</p>
+                <p class="m-small">Apto standard duplo: R$ 0,00</p>
+                <p class="m-small">Apto standard triplo: R$ 0,00</p>
+                <p class="m-small">Apto executivo individual: R$ 0,00</p>
+                <p class="m-small">Apto executivo duplo: R$ 0,00</p>
+                <p class="m-small">Apto executivo triplo: R$ 0,00</p>
+                <p class="m-small">Apto superior individual: R$ 0,00</p>
+                <p>Apto superior duplo: R$ 0,00</p>
                 <h4 class="mt-20-mobile">Diferenciais</h4>
                 <p class="m-small small">Café da manhã incluso;</p>
                 <p class="m-small small">Internet;</p>
-                <p class="m-small small">Estacionamento: R$ 7,00 por box;</p>
-                <p class="m-small small">Cama extra: R$ 50,00;</p>
-                <p class="m-small small">Colchão extra: R$ 30,00;</p>
-                <p class="m-small small">Café extra: R$ 20,00.</p>
+                <p class="m-small small">Estacionamento: R$ 0,00 por box;</p>
+                <p class="m-small small">Cama extra: R$ 0,00;</p>
+                <p class="m-small small">Colchão extra: R$ 0,00;</p>
+                <p class="m-small small">Café extra: R$ 0,00.</p>
+            </div>
+            <div class="grid-3 offset-3" data-aos="fade-right" data-aos-offset="100">
+                <img class="img-center" style="width:174px;height:174px;" src="{{ url('images/lgo/qrcode-curi-palace.png') }}">
             </div>
         </div>
         <div class="equal-height-grid mt-50 bt-white pt-50">
             <div class="grid-6 offset-6" data-aos="fade-right" data-aos-offset="100">
-                <img class="img-center" src="{{ url('images/lgo/novo-hotel-iguacu.jpg') }}">
+                <img class="img-center" src="{{ url('images/lgo/lgo-jacques-george.png') }}">
             </div>
             <div class="grid-10 offset-1 text-align-mobile" data-aos="fade-right" data-aos-offset="100">
-                <h3 class="color-yellow mt-20-mobile">Novo Hotel Iguaçu</h3>
-                <p class="m-small">Rua Matos Costa, 99</p>
+                <h3 class="color-yellow mt-20-mobile">Jacques Georges Tower</h3>
+                <p class="m-small">Rua Almirante Barroso, 2069</p>
                 <p class="m-small">Bairro: Centro</p>
-                <p class="m-small">Cidade: Porto União - SC</p>
-                <p class="m-small">Telefone: +55 (42) 3522-1733</p>
-                <p class="m-small">E-mail: <a class="color-white" href="mailto:hoteliguacu@Hotmail.com">hoteliguacu@hotmail.com</a></p>
+                <p class="m-small">Cidade: Pelotas - RS</p>
+                <p class="m-small">Telefone: +55 (53) 3027-9100</p>
+                <p class="m-small">E-mail: <a class="color-white" href="mailto:jgtower@jghotel.com.br">jgtower@jghotel.com.br</a></p>
+                <a class="link color-yellow" href="http://www.jghotel.com.br/" target="_blank" class="m-small">Acessar website do hotel</a>
             </div>
             <div class="grid-6 offset-1 text-align-mobile" data-aos="fade-left" data-aos-offset="100">
                 <h4 class="mt-20-mobile">Tarifas</h4>
-                <p class="m-small">Apto individual: R$ 109,00</p>
-                <p class="m-small">Apto duplo: R$ 140,00</p>
-                <p>Apto triplo: R$ 180,00</p>
+                <p class="m-small">Apto individual: R$ 0,00</p>
+                <p class="m-small">Apto duplo: R$ 0,00</p>
+                <p>Apto triplo: R$ 0,00</p>
                 <h4 class="mt-20-mobile">Diferenciais</h4>
                 <p class="m-small small">Café da manhã incluso;</p>
                 <p class="m-small small">Internet;</p>
@@ -147,21 +164,45 @@
         </div>
         <div class="equal-height-grid mt-50 bt-white pt-50">
             <div class="grid-6 offset-6" data-aos="fade-right" data-aos-offset="100">
-                <img class="img-center" src="{{ url('images/lgo/hotel-florida.jpg') }}">
+                <img class="img-center" style="width:200px;height:90px;" src="{{ url('images/lgo/lgo-manta.png') }}">
             </div>
             <div class="grid-10 offset-1 text-align-mobile" data-aos="fade-right" data-aos-offset="100">
-                <h3 class="color-yellow mt-20-mobile">Hotel Flórida</h3>
-                <p class="m-small">Rua Cruz Machado, 9</p>
+                <h3 class="color-yellow mt-20-mobile">Hotéis Manta</h3>
+                <p class="m-small">Rua General Neto, 1131</p>
                 <p class="m-small">Bairro: Centro</p>
-                <p class="m-small">Cidade: União da Vitória - PR</p>
-                <p class="m-small">Telefone: +55 (42) 3522-1140</p>
-                <p class="m-small">E-mail: <a class="color-white" href="mailto:hf@hotelflorida.com.br">hf@hotelflorida.com.br</a></p>
-                <a class="link color-yellow" href="http://www.hotelflorida.com.br/" target="_blank" class="m-small">Acessar website do hotel</a>
+                <p class="m-small">Cidade: Pelotas - RS</p>
+                <p class="m-small">Telefone: +55 (53) 3225-2411</p>
+                <p class="m-small">E-mail: <a class="color-white" href="mailto:reservas@hoteismanta.com.br">reservas@hoteismanta.com.br</a></p>
+                <a class="link color-yellow" href="https://www.hoteismanta.com.br/" target="_blank" class="m-small">Acessar website do hotel</a>
             </div>
             <div class="grid-6 offset-1 text-align-mobile" data-aos="fade-left" data-aos-offset="100">
                 <h4 class="mt-20-mobile">Tarifas</h4>
                 <p class="m-small">Apto individual: R$ 109,00</p>
                 <p>Apto duplo: R$ 140,00</p>
+                <h4 class="mt-20-mobile">Diferenciais</h4>
+                <p class="m-small small">Ar condicionado;</p>
+                <p class="m-small small">Café da manhã incluso;</p>
+                <p class="m-small small">Internet;</p>
+                <p class="m-small small">Estacionamento.</p>
+            </div>
+        </div>
+        <div class="equal-height-grid mt-50 bt-white pt-50">
+            <div class="grid-6 offset-6" data-aos="fade-right" data-aos-offset="100">
+                <img class="img-center" style="width:200px;height:200px;" src="{{ url('images/lgo/lgo-provincia.jpg') }}">
+            </div>
+            <div class="grid-10 offset-1 text-align-mobile" data-aos="fade-right" data-aos-offset="100">
+                <h3 class="color-yellow mt-20-mobile">Província Casa Hotel</h3>
+                <p class="m-small">Avenida Adolfo Fetter, 2994</p>
+                <p class="m-small">Bairro: Recanto de Portugal</p>
+                <p class="m-small">Cidade: Pelotas - RS</p>
+                <p class="m-small">Telefone: +55 (53) 3278-4003</p>
+                <p class="m-small">E-mail: <a class="color-white" href="mailto:reservas@provinciacasahotel.com.br">reservas@provinciacasahotel.com.br</a></p>
+                <a class="link color-yellow" href="https://www.provinciacasahotel.com.br/" target="_blank" class="m-small">Acessar website do hotel</a>
+            </div>
+            <div class="grid-6 offset-1 text-align-mobile" data-aos="fade-left" data-aos-offset="100">
+                <h4 class="mt-20-mobile">Tarifas</h4>
+                <p class="m-small">Apto individual: R$ 0,00</p>
+                <p>Apto duplo: R$ 0,00</p>
                 <h4 class="mt-20-mobile">Diferenciais</h4>
                 <p class="m-small small">Ar condicionado;</p>
                 <p class="m-small small">Café da manhã incluso;</p>
