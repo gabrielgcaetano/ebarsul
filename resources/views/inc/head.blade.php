@@ -46,8 +46,6 @@
     </nav>
     <div class="counter text-center color-white pt-50" data-aos="fade-up" data-aos-duration="1000"
          data-aos-delay="1000">
-        <img class="img-inline-block px-5" alt="Bandeira do Paraná" src="{{ url('images/ico/flag-parana.png') }}">
-        <img class="img-inline-block px-5" alt="Bandeira de Santa Catarina"
-             src="{{ url('images/ico/flag-santa-catarina.png') }}">
+        <img class="img-inline-block px-5" style="width: 100px" alt="Bandeira do Paraná" src="{{ url('images/ico/flag-pelotas.png') }}">
     </div>
 </header>
