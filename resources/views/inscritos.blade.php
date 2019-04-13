@@ -40,12 +40,12 @@
 <main>
     <section class="section back-black color-white py-30">
         <div class="equal-height-grid-top">
-            <div class="grid-34" data-aos="fade-right" data-aos-offset="300">
+            <div class="grid-34">
                 <h1 style="font-size: 40px" id="contador" align="center"></h1>
             </div>
         </div>
         <div id="formulario-senha" class="equal-height-grid-top">
-            <div class="grid-34 offset-1" data-aos="fade-up" data-aos-offset="300">
+            <div class="grid-34 offset-1">
                 <h2 class="title-yellow mt-50">Área Restrita</h2>
                 <h4 class="mt-20">Senha</h4>
                 <input id="senha" class="input-box" type="password" name="senha">

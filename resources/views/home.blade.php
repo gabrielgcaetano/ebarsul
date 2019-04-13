@@ -41,13 +41,8 @@
         <div class="equal-height-grid-top">
             <div class="grid-16 offset-1">
                 <h2 class="title-yellow">O evento</h2>
-                <p>O encontro nacional de motociclistas está de volta! A <strong>Sub-Sede Contestado</strong> sediará o
-                    próximo encontro dos <strong>Bodes do Asfalto da Região Sul do Brasil - V EBAR SUL</strong>.</p>
-                <p>O primeiro encontro aconteceu em 2014, na cidade de Concórdia – SC, o segundo em 2015 (Pato Branco –
-                    PR), o terceiro em 2016 (Santa Maria - RS) e o quarto em 2017 (Chapecó - SC).</p>
-                <p>Estamos muito felizes que o Quinto “EBAR SUL” será nas cidades Gêmeas do Iguaçu. Irá reunir
-                    representantes das 66 facções ativas, das quais 20 estão em Santa Catarina, 19 no Rio Grande do Sul
-                    e 27 no Paraná.</p>
+                <p>O EBA almoço será o primeiro evento desta jovem facção, que com certeza servirá de base e experiência
+                    para outros muitos eventos.</strong>.</p>
                 <h2 class="title-yellow mt-50">O que somos</h2>
                 <p>Somos um canal de comunicação entre os maçons x maçons motociclistas x motociclistas em geral.</p>
                 <p>Somos cidadãos que preservamos os ensinamentos Maçônicos.</p>
@@ -70,50 +65,53 @@
             </div>
         </div>
     </section>
+
     <section class="section back-black-dark color-white py-30">
         <div class="equal-height-grid-top">
             <div class="grid-34 offset-1" data-aos="fade-up" data-aos-offset="300">
-                <h2 class="title-yellow">Sub-Sede (Facção) Contestado – Origem</h2>
-                <p>Fundada em 15 de novembro de 2009 pelos IIr.´. Cleuton Cezar Buchholz, Edson Igor Malschitzky -
-                    “Laco”, Marcelo D. Dalmolin, Marco A. Guimarães - “Guima” (<em>in memorian</em>), Marco A. Sokol,
-                    Marcus V. Grazziotin e Vanderlei Shaikoski, os quais já eram Bodes do Asfalto, porém não faziam
-                    parte de nenhuma sub-sede (facção).</p>
-                <p>Após sua fundação, foram fazendo parte da sub-sede (facção) IIr.´. das cidades de Caçador - SC,
-                    Canoinhas - SC, Palmas - PR e São Mateus do Sul - PR, que com o tempo, e entrada de mais IIr.´. de
-                    suas regiões formaram suas próprias sub-sedes (facções). Devido ao falecimento do Ir.´. Guima, a
-                    facção ficou adormecida em 2011 - 2012, sendo reativada em agosto de 2012 onde assumiu como
-                    Coordenador o Ir.`. Lucio Kurten dos Passos.</p>
-                <p>O nome “Contestado” foi dado por estarmos na divisa dos estados do Paraná e Santa Catarina onde houve
-                    a Guerra do Contestado entre os anos 1912 e 1916 a qual fazemos um breve relato:</p>
+                <h2 class="title-yellow">Sub-Sede (Facção) Pelotas – Origem</h2>
+                <p>A Facção Pelotas do MCBDA foi criada em 28.02.2018, através do Ato de Criação de Facção/Subsede
+                    datado de 01.03.2018, emitido pela Coordenação Nacional do MCBDA, tendo como Coordenador o IIr.Rui
+                    César Maia de Araujo, como Adjunto o IIr. Mauro Roberto Graziadei e como Secretário o IIr. Edson
+                    Romano Jacinto.</p>
+                <p>Oriundos da Facção Extremo Sul- RS, 16 Irmãos reuniram-se com o intuíto de criar uma nova Facção,
+                    visando aumentar a participação de maçons motociclistas de Pelotas no Moto Clube.</p>
+                <p>Passado um ano desde a sua fundação, somos hoje 22 integrantes e participamos de vários encontros e
+                    eventos do MCBDA.</p>
             </div>
         </div>
     </section>
+
     <section class="section back-black color-white py-30">
         <div class="equal-height-grid">
             <div class="grid-22 offset-1" data-aos="fade-right" data-aos-offset="300">
-                <h2 class="title-yellow">Terras contestadas</h2>
-                <p>Em fins do Século XIX, o Brasil era uma país com predisposição para o desenvolvimento e povoado
-                    densamente no litoral. Na região sul do Paraná, divisa com o Planalto Norte de Santa Catarina havia
-                    uma pesada floresta de imbuia e pinheirais intermináveis. Tanta riqueza natural chamou a atenção de
-                    empresários americanos que investiam na construção de estradas de ferro pelo interior do Brasil.
-                    Parte dessa riqueza entrava como pagamento. É nesse contexto, envolvendo a exploração de recursos
-                    naturais, grilagem de terras, e um forte movimento de “europeização” deste território que, em 22 de
-                    outubro de 1912, eclode o episódio conhecido historicamente como “Guerra do Contestado”.</p>
-                <p>O evento é tido atualmente como o maior conflito social e bélico do Brasil, em que mais de 30 mil
-                    pessoas perderam a vida em batalha, adoecidos ou de miséria. A disputa territorial que se inicia no
-                    passado entre Argentina e Brasil e, posteriormente, entre Paraná e Santa Catarina, apesar do impacto
-                    social desastroso é rica em peculiaridades e por construir uma série de personagens e acontecimentos
-                    marcantes. O mais famoso líder é São João Maria, um monge peregrino que promoveu o messianismo e a
-                    crença por dias melhores e que permanece vivo no imaginário social da Região do Contestado. As
-                    batalhas entre sertanejos e militares promoveram também a figura do primeiro herói paranaense, o
-                    Coronel João Gualberto, que ao lado da metralhadora a ser inaugurada em batalha sucumbiu, morto a
-                    golpes de facão.</p>
+                <h2 class="title-yellow">Pelotas</h2>
+                <p>Pelotas é um município da região sul do estado do Rio Grande do Sul, no Brasil. Considerado uma das
+                    capitais regionais do Brasil, sua população, conforme estimativas do IBGE de 2018, era de 341.648
+                    habitantes, sendo a quarta cidade mais populosa do estado.</p>
+                <p>Está localizado às margens do Canal São Gonçalo que liga as Lagoas dos Patos e Mirim, as maiores do
+                    Brasil, no estado do Rio Grande do Sul, no extremo sul do Brasil, ocupando uma área de 1609 km² e
+                    com cerca de 92% da população total residindo na zona urbana do município. Pelotas está localizada a
+                    261 quilômetros de Porto Alegre, a capital do estado.</p>
+                <p>O município conta com cinco instituições de ensino superior, quatro grandes escolas técnicas, dois
+                    teatros, uma biblioteca pública, vinte e três museus, dois jornais de circulação diária, três
+                    emissoras de televisão, um aeroporto e um porto flúvio-lacustre localizado às margens do Canal São
+                    Gonçalo.</p>
+                <p>Tanto a zona urbana quanto a rural de Pelotas contam com monumentos, paisagens e belas vistas, que
+                    levaram a televisão brasileira a escolher o município já por três vezes como cenário para suas
+                    produções: Incidente em Antares, cuja locação foi feita na zona do porto; A Casa das Sete Mulheres,
+                    gravada numa charqueada na zona rural, e do filme O Tempo e o Vento, cujas filmagens ocorreram no
+                    fim de abril de 2012.</p>
+                <p>Na história econômica do município, destaca-se a produção do charque, que era enviado para todo o
+                    Brasil e que fez a riqueza de Pelotas em tempos passados. A cidade realiza anualmente a tradicional
+                    Feira Nacional do Doce (Fenadoce), festa de eventos ancorada pelos famosos doces de origem
+                    portuguesa que fazem a fama de Pelotas.</p>
             </div>
             <div class="grid-10 offset-2 text-center" data-aos="fade-left" data-aos-offset="300">
                 <div class="back-yellow px-5 py-5 mb-10">
                     <div class="back-white px-5 py-5">
-                        <img alt="Bandeira do Contestado" title="Bandeira do Contestado" class="img-full"
-                             src="{{ url('images/fto/bandeira-do-contestado.png') }}">
+                        <img alt="Bandeira de Pelotas" title="Bandeira de Pelotas" class="img-full"
+                             src="{{ url('images/ico/flag-pelotas.png') }}">
                     </div>
                 </div>
                 <p class="small">Bandeira do Contestado</p>
@@ -134,64 +132,66 @@
             </div>
         </div>
     </section>
+
     <section class="section back-yellow color-black py-30">
         <div class="equal-height-grid-top">
             <div class="grid-16 offset-1" data-aos="fade-right" data-aos-offset="300">
-                <h2 class="title-white">Gêmeas do Iguaçu</h2>
-                <p>O território composto pelas cidades de Porto União - Santa Catarina e União da Vitória - Paraná é
-                    conhecido como <strong>“Gêmeas do Iguaçu”</strong>.</p>
-                <p class="mb-20">Foi dividido em 1917, com o fim da Guerra do Contestado, pelo Rio Iguaçu e pelos
-                    trilhos da Estrada de Ferro.</p>
-                <div class="back-black px-5 py-5">
-                    <div class="back-white px-5 py-5">
-                        <img alt="União da Vitória - PR e Porto União - SC"
-                             title="União da Vitória - PR e Porto União - SC" class="img-full"
-                             src="{{ url('images/fto/uniao-da-vitoria-pr-porto-uniao-sc.jpg') }}">
-                    </div>
-                </div>
-                <p class="mt-20">Devido a geografia acidentada da região, as cidades abrigam belas cachoeiras. São
-                    dezenas de quedas d'água com altura variando entre 10 a 60 metros.</p>
-                <p>Clique no botão abaixo e conheça os principais atrativos turísticos das cidades.</p>
+                <h2 class="title-white">Princesa do Sul</h2>
+                <p>Pelotas recebeu o cognome <strong>Princesa do Sul</strong> por ser considerada a cidade mais
+                    importante da província.
+                    Pelotas cresceu e se desenvolveu como nenhuma outra, exercendo grande influência econômica, cultural
+                    e política em todo o Rio Grande do Sul. Para falar da história de Pelotas não podemos deixar de
+                    falar das Charqueadas, onde tudo se iniciou, em 1780, quando José Pinto Martins fundou às margens do
+                    Arroio Pelotas a primeira Charqueada, iniciando a Freguesia de São Francisco de Paula, mais tarde
+                    Vila, que em 1835 elevou-se à cidade de Pelotas. Naquela época, as classes dominantes eram
+                    constituídas de fazendeiros (criadores e invernadores), charqueadores e comerciantes. Fazendeiros e
+                    comerciantes existiam por toda a Província, mas só em Pelotas estavam os charqueadores. Os
+                    charqueadores pelotenses, detentores de poder político e econômico, decorrentes das riquezas obtidas
+                    através da exploração e exportação do charque, criaram uma arquitetura aristocrática imponente,
+                    condizente com suas aspirações à nobreza, e para isto não mediram esforços. Trouxeram arquitetos
+                    famosos da Europa para construir seus palacetes, formando um conjunto arquitetônico único e
+                    monumental, de estilo Eclético. Eles quiseram que o lugar prosperasse, e o lugar prosperou. Passear
+                    hoje pelas ruas desta cidade nos faz ver este passado com os mesmos olhos daqueles que aqui viveram
+                    ou por aqui passaram. Em Pelotas habitaram nove barões, dois viscondes e um conde, o que colaborou
+                    para denominar a sua sociedade como a Aristocracia do Charque, ou, ainda, como os Barões da Carne
+                    Seca. Bela Princesa do Sul, de berço privilegiado, desde o cuidado no seu traçado, até seus mínimos
+                    detalhes arquitetônicos, ricamente trabalhados em moldes europeus. Seu glamour foi tal que recebeu
+                    este cognome. Seu povo foi responsável pelo seu desenvolvimento e conseqüente crescimento cultural,
+                    legando-nos, até hoje, um patrimônio no qual sua história retrata-se.</p>
+                <p class="mb-20"><a href="http://historiasriogrande.blogspot.com/2007/08/princesa-do-sul.html">Fonte</a>
+                </p>
                 <a href="{{ route('cidade') }}" target="_self" class="btn btn-black mt-20">
                     Conheça as cidades
                 </a>
             </div>
             <div class="grid-16 offset-2" data-aos="fade-left" data-aos-offset="300">
                 <h2 class="title-white mt-50-mobile">Como chegar</h2>
-                <p>Para traçar a rota de sua origem até o local do evento, clique em <strong>Rotas</strong> no mapa
-                    abaixo:</p>
-                <p class="m-small"><strong>Hotel 10</strong></p>
-                <p class="m-small">Rodovia BR 476 - Trevo BR 153, 4501</p>
-                <p class="m-small">Bairro: Área Industrial</p>
-                <p class="m-small">União da Vitória - PR</p>
-                <p>Coordenadas: S: 26.20213º | O: 51.06210º)</p>
                 <div class="back-black px-5 py-5">
                     <div class="back-white px-5 py-5">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44159.8292078878!2d-51.10761440116125!3d-26.2206296548627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e661be7d2917b7%3A0x732ca39d34e48b6c!2sHotel+10!5e0!3m2!1spt-BR!2sbr!4v1520195277665"
-                                width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="equal-height-grid-top mt-50">
-            <div class="grid-16 offset-1" data-aos="fade-right" data-aos-offset="300">
-                <div class="back-black px-5 py-5">
-                    <div class="back-white px-5 py-5">
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/L9NaO4ysLLU"
-                                frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                    </div>
-                </div>
-            </div>
-            <div class="grid-16 offset-2 mt-50-mobile" data-aos="fade-left" data-aos-offset="300">
-                <div class="back-black px-5 py-5">
-                    <div class="back-white px-5 py-5">
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/taSCxv-KzkE"
-                                frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        {{--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44159.8292078878!2d-51.10761440116125!3d-26.2206296548627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e661be7d2917b7%3A0x732ca39d34e48b6c!2sHotel+10!5e0!3m2!1spt-BR!2sbr!4v1520195277665"--}}
+                        {{--width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>--}}
+                        <div style="overflow:hidden;width:100%;position: relative;">
+                            <iframe width="100%" height="300"
+                                    src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=Pelotas+(Pelotas%20-%20Princesa%20do%20Sul)&amp;ie=UTF8&amp;t=&amp;z=11&amp;iwloc=B&amp;output=embed"
+                                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                            <div style="position: absolute;width: 80%;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;">
+                                <small style="line-height: 1.8;font-size: 2px;background: #fff;">Powered by <a
+                                            href="embedgooglemaps.com/pt/">https://embedgooglemaps.com/pt/</a> & <a
+                                            href="http://www.stedentrippers.nl/berlijn.html">Stedentrippers NL</a>
+                                </small>
+                            </div>
+                            <style>#gmap_canvas img {
+                                    max-width: none !important;
+                                    background: none !important
+                                }</style>
+                        </div>
+                        <br/>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
     <section class="section back-black color-white py-30">
         <div class="equal-height-grid-top">
             <div class="grid-16 offset-1" data-aos="fade-right" data-aos-offset="300">
@@ -203,7 +203,10 @@
             </div>
             <div class="grid-16 offset-2" data-aos="fade-left" data-aos-offset="300">
                 <h2 class="title-yellow mt-50-mobile">Inscrições</h2>
-                <p>Inscrições encerradas!</p>
+                <p>Faça sua inscrição no <strong>EBA ALMOÇO - 2019</strong> clicando no botão abaixo.</p>
+                <a href="{{ route('inscricao') }}" target="_self" class="btn btn-yellow mt-20">
+                    Inscrição
+                </a>
             </div>
         </div>
     </section>
