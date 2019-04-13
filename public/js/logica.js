@@ -49,10 +49,10 @@ function onLostFocusDocumento() {
     Atualiza o contador da data do evento
  */
 var YY = 2019;
-var MM = 3;
-var DD = 29;
-var HH = 22;
-var MI = 11;
+var MM = 6;
+var DD = 8;
+var HH = 10;
+var MI = 0;
 var SS = 0;
 
 function atualizaContador() {
@@ -106,7 +106,7 @@ function enviadoEmail(enviado) {
  */
 function onClickFormularioOrganizacao() {
     var senha = document.getElementById("senha").value;
-    if (senha.toUpperCase() == "MICTMR") {
+    if (senha.toUpperCase() == "ACACIA33") {
         document.getElementById("formulario-senha").style.display = 'none';
         document.getElementById("lista-inscritos").style.display = 'block';
     }
