@@ -109,6 +109,22 @@
                 <a onclick="onClickListaInscritos()" class="btn btn-yellow mt-20">
                     Lista de Inscritos
                 </a>
+
+                <div class="equal-height-grid mt-50 bt-white pt-50">
+                    <div class="grid-10 offset-1 text-align-mobile">
+                        <h1>
+                            <br>
+                            Dados para depósito do valor da inscrição
+                        </h1>
+
+                        <h3 class="color-yellow mt-20-mobile">Banco do Brasil</h3>
+                        <p class="m-small">Valor da inscrição: R$ 60,00</p>
+                        <p class="m-small">Agência 2884-3</p>
+                        <p class="m-small">Conta 8866096-6</p>
+                        <p class="m-small">CPF 255.482.710-91</p>
+                        <p class="m-small">Nome Rui César Maia de Araújo</p>
+                    </div>
+                </div>
             </div>
         </div>
         <div id="formulario-cadastro" class="equal-height-grid-top" style="display: none">
@@ -160,9 +176,11 @@
                         <span class="close">&times;</span>
                         <!-- Modal content -->
                         <div class="modal-content">
-                            <img class="img-inline-block mx-20 img-ptr-02" style="width: 45%" src="{{ url('images/fto/camiseta-masculina.png') }}"
+                            <img class="img-inline-block mx-20 img-ptr-02" style="width: 45%"
+                                 src="{{ url('images/fto/camiseta-masculina.png') }}"
                                  alt="Zuchelo - Incorporaçoes e Construções - Institucional">
-                            <img class="img-inline-block mx-20 img-ptr-02" style="width: 45%" src="{{ url('images/fto/camiseta-feminina.png') }}"
+                            <img class="img-inline-block mx-20 img-ptr-02" style="width: 45%"
+                                 src="{{ url('images/fto/camiseta-feminina.png') }}"
                                  alt="Zuchelo - Incorporaçoes e Construções - Institucional">
                         </div>
 

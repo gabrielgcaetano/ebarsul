@@ -5,7 +5,7 @@
     {{--src="{{ url('images/lgo/prefeitura-de-uniao-da-vitoria.png') }}"--}}
     {{--alt="Prefeitura de União da Vitória">--}}
     {{--</div>--}}
-    <div class="grid-34 offset-1" data-aos="fade-up" data-aos-offset="300">
+    <div class="grid-34 offset-1">
         <h2 class="title-yellow mt-50">Patrocínio</h2>
         <a href="https://www.pedrotrindadeimoveis.com.br/" target="_blank">
             <img class="img-inline-block mx-20 img-ptr-01" style="width: 250px" src="{{ url('images/lgo/logo-trindade.png') }}"
