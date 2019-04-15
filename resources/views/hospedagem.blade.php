@@ -35,7 +35,6 @@
             <div class="grid-34 offset-1" data-aos="fade-left">
                 <h2 class="title-yellow">Hospedagem</h2>
                 <p class="m-small">Relação de hotéis parceiros do evento:</p>
-                <p><strong>Obs.:</strong> No momento da reserva, é importante mencionar que pertencem ao <strong>Moto Clube Bodes do Asfalto</strong>.</p>
             </div>
         </div>
         <div class="equal-height-grid mt-50 bt-white pt-50">
@@ -52,16 +51,6 @@
                 <p class="m-small">Telefone: +55 (53) 3027-5500</p>
                 <p class="m-small">E-mail: <a class="color-white" href=""></a></p>
                 <a class="link color-yellow" href="http://www.mtowerhotel.com.br/site/home" target="_blank" class="m-small">Acessar website do hotel</a>
-            </div>
-            <div class="grid-3 offset-1 text-align-mobile" data-aos="fade-left" data-aos-offset="100">
-                <h4 class="mt-20-mobile">Tarifas</h4>
-                <p class="m-small">Suíte single R$ 0,00</p>
-                <p class="m-small">Suíte dupla/casal: R$ 0,00</p>
-                <p>Suíte tripla/quádrupla: R$ 0,00</p>
-                <h4 class="mt-20-mobile">Diferenciais</h4>
-                <p class="m-small small">Café da manhã incluso;</p>
-                <p class="m-small small">Internet;</p>
-                <p class="m-small small">Estacionamento.</p>
             </div>
             <div class="grid-3 offset-3" data-aos="fade-right" data-aos-offset="100">
                 <img class="img-center" style="width:174px;height:174px;" src="{{ url('images/lgo/qrcode-mtower.png') }}">
@@ -84,17 +73,6 @@
                 <p class="m-small">E-mail: <a class="color-white" href=""></a></p>
                 <a class="link color-yellow" href="https://www.hotelcuri.com.br/" target="_blank" class="m-small">Acessar website do hotel</a>
             </div>
-            <div class="grid-3 offset-1 text-align-mobile" data-aos="fade-left" data-aos-offset="100">
-                <h4 class="mt-20-mobile">Tarifas</h4>
-                <p class="m-small">Apto single: R$ 0,00</p>
-                <p class="m-small">Apto duplo: R$ 0,00</p>
-                <p>Apto triplo: R$ 0,00</p>
-                <h4 class="mt-20-mobile">Diferenciais</h4>
-                <p class="m-small small">Café da manhã incluso;</p>
-                <p class="m-small small">Internet;</p>
-                <p class="m-small small">Estacionamento;</p>
-                <p class="m-small small">Bikes para passeio.</p>
-            </div>
             <div class="grid-3 offset-3" data-aos="fade-right" data-aos-offset="100">
                 <img class="img-center" style="width:174px;height:174px;" src="{{ url('images/lgo/qrcode-curi-executive.png') }}">
             </div>
@@ -116,33 +94,15 @@
                 <p class="m-small">E-mail: <a class="color-white" href=""></a></p>
                 <a class="link color-yellow" href="https://www.curipalacehotel.com.br/" target="_blank" class="m-small">Acessar website do hotel</a>
             </div>
-            <div class="grid-3 offset-1 text-align-mobile" data-aos="fade-left" data-aos-offset="100">
-                <h4 class="mt-20-mobile">Tarifas</h4>
-                <p class="m-small">Apto standard individual: R$ 0,00</p>
-                <p class="m-small">Apto standard duplo: R$ 0,00</p>
-                <p class="m-small">Apto standard triplo: R$ 0,00</p>
-                <p class="m-small">Apto executivo individual: R$ 0,00</p>
-                <p class="m-small">Apto executivo duplo: R$ 0,00</p>
-                <p class="m-small">Apto executivo triplo: R$ 0,00</p>
-                <p class="m-small">Apto superior individual: R$ 0,00</p>
-                <p>Apto superior duplo: R$ 0,00</p>
-                <h4 class="mt-20-mobile">Diferenciais</h4>
-                <p class="m-small small">Café da manhã incluso;</p>
-                <p class="m-small small">Internet;</p>
-                <p class="m-small small">Estacionamento: R$ 0,00 por box;</p>
-                <p class="m-small small">Cama extra: R$ 0,00;</p>
-                <p class="m-small small">Colchão extra: R$ 0,00;</p>
-                <p class="m-small small">Café extra: R$ 0,00.</p>
-            </div>
             <div class="grid-3 offset-3" data-aos="fade-right" data-aos-offset="100">
                 <img class="img-center" style="width:174px;height:174px;" src="{{ url('images/lgo/qrcode-curi-palace.png') }}">
             </div>
         </div>
         <div class="equal-height-grid mt-50 bt-white pt-50">
-            <div class="grid-6 offset-6" data-aos="fade-right" data-aos-offset="100">
+            <div class="grid-4 offset-4" data-aos="fade-right" data-aos-offset="100">
                 <img class="img-center" src="{{ url('images/lgo/lgo-jacques-george.png') }}">
             </div>
-            <div class="grid-10 offset-1 text-align-mobile" data-aos="fade-right" data-aos-offset="100">
+            <div class="grid-8 offset-1 text-align-mobile" data-aos="fade-right" data-aos-offset="100">
                 <h3 class="color-yellow mt-20-mobile">Jacques Georges Tower</h3>
                 <p class="m-small">Rua Almirante Barroso, 2069</p>
                 <p class="m-small">Bairro: Centro</p>
@@ -151,22 +111,12 @@
                 <p class="m-small">E-mail: <a class="color-white" href="mailto:jgtower@jghotel.com.br">jgtower@jghotel.com.br</a></p>
                 <a class="link color-yellow" href="http://www.jghotel.com.br/" target="_blank" class="m-small">Acessar website do hotel</a>
             </div>
-            <div class="grid-6 offset-1 text-align-mobile" data-aos="fade-left" data-aos-offset="100">
-                <h4 class="mt-20-mobile">Tarifas</h4>
-                <p class="m-small">Apto individual: R$ 0,00</p>
-                <p class="m-small">Apto duplo: R$ 0,00</p>
-                <p>Apto triplo: R$ 0,00</p>
-                <h4 class="mt-20-mobile">Diferenciais</h4>
-                <p class="m-small small">Café da manhã incluso;</p>
-                <p class="m-small small">Internet;</p>
-                <p class="m-small small">Estacionamento.</p>
-            </div>
         </div>
         <div class="equal-height-grid mt-50 bt-white pt-50">
-            <div class="grid-6 offset-6" data-aos="fade-right" data-aos-offset="100">
+            <div class="grid-4 offset-4" data-aos="fade-right" data-aos-offset="100">
                 <img class="img-center" style="width:200px;height:90px;" src="{{ url('images/lgo/lgo-manta.png') }}">
             </div>
-            <div class="grid-10 offset-1 text-align-mobile" data-aos="fade-right" data-aos-offset="100">
+            <div class="grid-8 offset-1 text-align-mobile" data-aos="fade-right" data-aos-offset="100">
                 <h3 class="color-yellow mt-20-mobile">Hotéis Manta</h3>
                 <p class="m-small">Rua General Neto, 1131</p>
                 <p class="m-small">Bairro: Centro</p>
@@ -175,22 +125,12 @@
                 <p class="m-small">E-mail: <a class="color-white" href="mailto:reservas@hoteismanta.com.br">reservas@hoteismanta.com.br</a></p>
                 <a class="link color-yellow" href="https://www.hoteismanta.com.br/" target="_blank" class="m-small">Acessar website do hotel</a>
             </div>
-            <div class="grid-6 offset-1 text-align-mobile" data-aos="fade-left" data-aos-offset="100">
-                <h4 class="mt-20-mobile">Tarifas</h4>
-                <p class="m-small">Apto individual: R$ 109,00</p>
-                <p>Apto duplo: R$ 140,00</p>
-                <h4 class="mt-20-mobile">Diferenciais</h4>
-                <p class="m-small small">Ar condicionado;</p>
-                <p class="m-small small">Café da manhã incluso;</p>
-                <p class="m-small small">Internet;</p>
-                <p class="m-small small">Estacionamento.</p>
-            </div>
         </div>
         <div class="equal-height-grid mt-50 bt-white pt-50">
-            <div class="grid-6 offset-6" data-aos="fade-right" data-aos-offset="100">
+            <div class="grid-4 offset-4" data-aos="fade-right" data-aos-offset="100">
                 <img class="img-center" style="width:200px;height:200px;" src="{{ url('images/lgo/lgo-provincia.jpg') }}">
             </div>
-            <div class="grid-10 offset-1 text-align-mobile" data-aos="fade-right" data-aos-offset="100">
+            <div class="grid-8 offset-1 text-align-mobile" data-aos="fade-right" data-aos-offset="100">
                 <h3 class="color-yellow mt-20-mobile">Província Casa Hotel</h3>
                 <p class="m-small">Avenida Adolfo Fetter, 2994</p>
                 <p class="m-small">Bairro: Recanto de Portugal</p>
@@ -198,16 +138,6 @@
                 <p class="m-small">Telefone: +55 (53) 3278-4003</p>
                 <p class="m-small">E-mail: <a class="color-white" href="mailto:reservas@provinciacasahotel.com.br">reservas@provinciacasahotel.com.br</a></p>
                 <a class="link color-yellow" href="https://www.provinciacasahotel.com.br/" target="_blank" class="m-small">Acessar website do hotel</a>
-            </div>
-            <div class="grid-6 offset-1 text-align-mobile" data-aos="fade-left" data-aos-offset="100">
-                <h4 class="mt-20-mobile">Tarifas</h4>
-                <p class="m-small">Apto individual: R$ 0,00</p>
-                <p>Apto duplo: R$ 0,00</p>
-                <h4 class="mt-20-mobile">Diferenciais</h4>
-                <p class="m-small small">Ar condicionado;</p>
-                <p class="m-small small">Café da manhã incluso;</p>
-                <p class="m-small small">Internet;</p>
-                <p class="m-small small">Estacionamento.</p>
             </div>
         </div>
     </section>
