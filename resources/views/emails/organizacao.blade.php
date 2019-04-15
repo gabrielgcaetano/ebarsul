@@ -7,7 +7,7 @@
                 <tbody>
                 <tr>
                     <td style="padding-top: 30px;" align="center">
-                        <img src="{{ url('images/lgo/v-ebar-sul-small.png') }}" alt="" border="0"
+                        <img src="{{ url('images/lgo/logo-ebalmoco-para-web.png') }}" alt="" border="0"
                              style="display: block;">
                     </td>
                 </tr>
@@ -122,7 +122,7 @@
 
     <tr>
         <td style="width: 411px; font-family: verdana; font-size: 11px; color: #ffffff; text-align: center; padding-top:15px; padding-bottom: 80px">
-            <a href="www.ebarsul.com.br" style="text-decoration: none;color: #ffffff">www.ebarsul.com.br</a>
+            <a href="www.mcbdapelotas.com.br" style="text-decoration: none;color: #ffffff">www.mcbdapelotas.com.br</a>
 
         </td>
     </tr>

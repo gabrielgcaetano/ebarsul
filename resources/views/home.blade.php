@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width">
     <title>EBA ALMOÇO - 2019 | 8 de junho de 2019 em Pelotas - RS</title>
     <meta name="description"
-          content="EBA ALMOÇO - 2019 | 8 de junho de 2019 em Pelotas - RS | Moto Clube Bodes do Asfalto | Sub-Sede - Contestado PR/SC">
+          content="EBA ALMOÇO - 2019 | 8 de junho de 2019 em Pelotas - RS | Moto Clube Bodes do Asfalto | ">
     <link href="{{ url('css/fonts.googleapis.com/csse38d.css?family=Oswald:300,400,500,600,700')}}" rel="stylesheet">
     <link rel="stylesheet" href="{{ url('css/global.min.css') }}" media="screen">
     <script src="{{ url('scripts/dist/modernizr.js')}}"></script>
@@ -114,21 +114,7 @@
                              src="{{ url('images/ico/flag-pelotas.png') }}">
                     </div>
                 </div>
-                <p class="small">Bandeira do Contestado</p>
-            </div>
-        </div>
-        <div class="equal-height-grid">
-            <div class="grid-34 offset-1" data-aos="fade-up" data-aos-offset="300">
-                <p>É da Guerra do Contestado o uso de aeronaves em combate pela primeira vez no Brasil. A novidade fez,
-                    também, uma vítima, o Capitão Kirk.</p>
-                <p>As cidades Gêmeas, União da Vitória (PR) e Porto União (SC), ainda são cortadas pelos trilhos do
-                    trem. Em cada canto da cidade se encontra um pedaço da história. Na forma material ou no imaginário
-                    social de seus habitantes. A bandeira branca com a cruz verde simboliza o território do
-                    Contestado.</p>
-                <p>Assim, uma facção de um moto clube do tamanho do Bodes do Asfalto, não poderia deixar de carregar tal
-                    simbolismo. As disputas deram origem à fraternidade entre aqueles que apreciam o motociclismo e
-                    fazem dele um modo de vida.</p>
-                <p><strong>Sejam bem-vindos ao Território do Contestado.</strong></p>
+                <p class="small">Bandeira de Pelotas</p>
             </div>
         </div>
     </section>
