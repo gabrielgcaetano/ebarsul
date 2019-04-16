@@ -111,3 +111,9 @@ function onClickFormularioOrganizacao() {
         document.getElementById("lista-inscritos").style.display = 'block';
     }
 }
+
+function inscricaoPronta(bol) {
+    if(bol){
+        document.getElementById('inscricao-pronta').style.display = 'block';
+    }
+}

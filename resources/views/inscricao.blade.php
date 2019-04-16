@@ -72,7 +72,7 @@
         }
     </style>
 </head>
-<body onLoad="atualizaContador()">
+<body onLoad="atualizaContador(); inscricaoPronta({{$inscricaoFeita}})">
 
 @include('inc.head')
 
@@ -81,6 +81,12 @@
         <div class="equal-height-grid-top">
             <div class="grid-34">
                 <h1 style="font-size: 40px" id="contador" align="center"></h1>
+            </div>
+        </div>
+        <br><br>
+        <div class="equal-height-grid mt-50 bt-white pt-50" id="inscricao-pronta" style="display: none">
+            <div class="grid-10 offset-1 text-align-mobile text-center">
+                <h3 class="color-yellow mt-20-mobile">Inscrição concluída com sucesso!</h3>
             </div>
         </div>
         <br><br>

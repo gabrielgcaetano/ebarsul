@@ -17,7 +17,8 @@ class InscricaoController extends Controller
     public function index(Inscrito $inscrito)
     {
         $inscritos = $inscrito::all()->where("status", "2");
-        return view('inscricao', compact('inscritos'));
+        $inscricaoFeita = false;
+        return view('inscricao', compact('inscritos', 'inscricaoFeita'));
     }
 
     /*
@@ -63,7 +64,9 @@ class InscricaoController extends Controller
             ->send(new SendMailOrganizacao($ins));
 
         $inscritos = $inscrito::all();
-        return view('inscricao', compact('inscritos'));
+        $inscricaoFeita = true;
+        $param = true;
+        return view('inscricao', compact('inscritos', 'inscricaoFeita', 'param'));
     }
 
     /*
@@ -74,7 +77,8 @@ class InscricaoController extends Controller
         $retorno = $inscrito::confirmar($id);
         $inscritos = $inscrito::all();
         $param = true;
-        return view('inscritos', compact('inscritos', 'param'));
+        $inscricaoFeita = false;
+        return view('inscritos', compact('inscritos', 'param', 'inscricaoFeita'));
     }
 
     /*
@@ -85,7 +89,8 @@ class InscricaoController extends Controller
         $retorno = $inscrito::rejeitar($id);
         $inscritos = $inscrito::all();
         $param = true;
-        return view('inscritos', compact('inscritos', 'param'));
+        $inscricaoFeita = false;
+        return view('inscritos', compact('inscritos', 'param', 'inscricaoFeita'));
     }
 
     /*
@@ -95,7 +100,8 @@ class InscricaoController extends Controller
     {
         $inscritos = $inscrito::all()->sortBy('status');
         $param = false;
-        return view('inscritos', compact('inscritos', 'param'));
+        $inscricaoFeita = false;
+        return view('inscritos', compact('inscritos', 'param', 'inscricaoFeita'));
     }
 
     public function listaInscritosBaixar(Inscrito $inscrito)
