@@ -34,7 +34,7 @@
     <section class="section back-black color-white py-30">
         <div class="equal-height-grid-top">
             <div class="grid-34">
-                <h1 style="font-size: 40px" id="contador" align="center"></h1>
+                <h2 style="font-size: 40px" id="contador" align="center"></h2>
             </div>
         </div>
         <br/>
