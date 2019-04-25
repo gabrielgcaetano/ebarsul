@@ -39,7 +39,7 @@
                     Considerado uma das
                     capitais regionais do Brasil, sua população, conforme estimativas do IBGE de 2018, era de 341.648
                     habitantes, sendo a quarta cidade mais populosa do estado.</p>
-                <p>Está localizado às margens do Canal São Gonçalo que liga as Lagoas dos Patos e Mirim, as maiores do
+                <p>Está localizada às margens do Canal São Gonçalo que liga as Lagoas dos Patos e Mirim, as maiores do
                     Brasil, no estado do Rio Grande do Sul, no extremo sul do Brasil, ocupando uma área de 1609 km² e
                     com cerca de 92% da população total residindo na zona urbana do município. Pelotas está localizada a
                     261 quilômetros de Porto Alegre, a capital do estado.</p>

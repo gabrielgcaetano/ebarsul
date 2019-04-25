@@ -39,6 +39,7 @@ class Inscrito extends Model
         $this->cidade = isset($data['cidade']) ? $data['cidade'] : "";
         $this->tipo = isset($data['tipo']) ? $data['tipo'] : "";
         $this->camiseta = isset($data['camiseta']) ? $data['camiseta'] : "";
+        $this->faccao = isset($data['faccao']) ? $data['faccao'] : "";
         $this->arquivo = isset($nameFile) ? $nameFile : "";
         $this->status = 1;
         $inscrito = $this->save();

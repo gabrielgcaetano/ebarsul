@@ -6,7 +6,7 @@
     {{--alt="Prefeitura de União da Vitória">--}}
     {{--</div>--}}
     <div class="grid-34 offset-1">
-        <h2 class="title-yellow mt-50">Patrocínio</h2>
+        <h2 class="title-yellow mt-50">Apoio</h2>
         <a href="https://www.pedrotrindadeimoveis.com.br/" target="_blank">
             <img class="img-inline-block mx-20 img-ptr-01" style="width: 250px" src="{{ url('images/lgo/logo-trindade.png') }}"
                  alt="Pedro Trindade Negócios Imobiliários - Sua imobiliária particular" ></a>

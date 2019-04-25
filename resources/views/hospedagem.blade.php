@@ -34,7 +34,7 @@
         <div class="equal-height-grid">
             <div class="grid-34 offset-1" data-aos="fade-left">
                 <h2 class="title-yellow">Hospedagem</h2>
-                <p class="m-small">Relação de hotéis parceiros do evento:</p>
+                <p class="m-small">Sugestão de Hotéis</p>
             </div>
         </div>
         <div class="equal-height-grid mt-50 bt-white pt-50">

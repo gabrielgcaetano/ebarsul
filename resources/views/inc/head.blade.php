@@ -42,10 +42,11 @@
                     <a href="{{ route('contato') }}" target="_self" class="menu-link">Contato</a>
                 </li>
             </ul>
+            <div class="text-center">
+                <img class="img-inline-block px-5 text-center" style="width: 100px;margin-top: -100px" alt="Bandeira de Pelotas" src="{{ url('images/ico/flag-pelotas.png') }}">
+            </div>
         </div>
+
     </nav>
-    <div class="counter text-center color-white pt-50" data-aos="fade-up" data-aos-duration="1000"
-         data-aos-delay="1000">
-        <img class="img-inline-block px-5" style="width: 100px" alt="Bandeira do Paraná" src="{{ url('images/ico/flag-pelotas.png') }}">
-    </div>
+
 </header>

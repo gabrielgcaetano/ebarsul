@@ -115,7 +115,13 @@
                 <a onclick="onClickListaInscritos()" class="btn btn-yellow mt-20">
                     Lista de Inscritos
                 </a>
-
+                <div class="equal-height-grid mt-50 bt-white pt-50">
+                    <div class="grid-10 offset-1 text-align-mobile">
+                        <p class="m-small">Custo por participante: R$ 60,00 (com direito ao almoço e uma camiseta do evento)</p>
+                        <p class="m-small">- Bebida cobrada a parte</p>
+                        <p class="m-small">- Buffet pratos quentes e saladas</p>
+                    </div>
+                </div>
                 <div class="equal-height-grid mt-50 bt-white pt-50">
                     <div class="grid-10 offset-1 text-align-mobile">
                         <h1>
@@ -150,10 +156,13 @@
                            data-msg-required="Este campo é obrigatório." required>
                     <h4 class="mt-20">Cidade - Estado</h4>
                     <input class="input-box" type="text" name="cidade" required>
+                    <h4 class="mt-20">Facção</h4>
+                    <input class="input-box" type="text" name="faccao" required>
                     <h4 class="mt-20">Tipo</h4>
                     <select id="tipo" name="tipo" required>
                         <option value="irmao">Irmão</option>
                         <option value="cunhada">Cunhada</option>
+                        <option value="convidado">Convidado</option>
                     </select>
 
                     <h4 class="mt-20">Camisetas</h4>

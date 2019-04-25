@@ -71,13 +71,16 @@
             <div class="grid-34 offset-1" data-aos="fade-up" data-aos-offset="300">
                 <h2 class="title-yellow">Sub-Sede (Facção) Pelotas – Origem</h2>
                 <p>A Facção Pelotas do MCBDA foi criada em 28.02.2018, através do Ato de Criação de Facção/Subsede
-                    datado de 01.03.2018, emitido pela Coordenação Nacional do MCBDA, tendo como Coordenador o IIr.Rui
-                    César Maia de Araujo, como Adjunto o IIr. Mauro Roberto Graziadei e como Secretário o IIr. Edson
-                    Romano Jacinto.</p>
+                    datado de 01.03.2018, emitido pela Coordenação Nacional do MCBDA, tendo na primeira administração
+                    como Coordenador o IIr.Rui César Maia de Araujo, como Adjunto o IIr. Mauro Roberto Graziadei e como
+                    Secretário o IIr. Edson Romano Jacinto.
+                </p>
                 <p>Oriundos da Facção Extremo Sul- RS, 16 Irmãos reuniram-se com o intuíto de criar uma nova Facção,
-                    visando aumentar a participação de maçons motociclistas de Pelotas no Moto Clube.</p>
-                <p>Passado um ano desde a sua fundação, somos hoje 22 integrantes e participamos de vários encontros e
-                    eventos do MCBDA.</p>
+                    visando aumentar a participação de maçons motociclistas de Pelotas no Moto Clube.
+                </p>
+                <p>Passado um ano desde a sua fundação, somos hoje 23 integrantes e participamos de vários encontros e
+                    eventos do MCBDA.
+                </p>
             </div>
         </div>
     </section>
@@ -89,7 +92,7 @@
                 <p>Pelotas é um município da região sul do estado do Rio Grande do Sul, no Brasil. Considerado uma das
                     capitais regionais do Brasil, sua população, conforme estimativas do IBGE de 2018, era de 341.648
                     habitantes, sendo a quarta cidade mais populosa do estado.</p>
-                <p>Está localizado às margens do Canal São Gonçalo que liga as Lagoas dos Patos e Mirim, as maiores do
+                <p>Está localizada às margens do Canal São Gonçalo que liga as Lagoas dos Patos e Mirim, as maiores do
                     Brasil, no estado do Rio Grande do Sul, no extremo sul do Brasil, ocupando uma área de 1609 km² e
                     com cerca de 92% da população total residindo na zona urbana do município. Pelotas está localizada a
                     261 quilômetros de Porto Alegre, a capital do estado.</p>
