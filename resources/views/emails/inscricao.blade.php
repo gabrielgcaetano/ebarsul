@@ -8,7 +8,7 @@
                 <tr>
                     <td style="padding-top: 30px;" align="center">
                         <img src="{{ url('images/lgo/logo-ebalmoco-para-web.png') }}" alt="" border="0"
-                             style="display: block;">
+                             style="display: block; width: 150px">
                     </td>
                 </tr>
                 <tr>
@@ -76,18 +76,6 @@
             </table>
         </td>
     </tr>
-    <tr>
-        <td style="padding-top: 30px;width: 472px">
-            <table align="center" border="0" cellpadding="0" cellspacing="0" style="width:472px;">
-                <tr>
-                    <td style="width: 472px">
-                        <hr style="background-color: #ffffff;" color="#ffffff">
-                    </td>
-                </tr>
-            </table>
-        </td>
-    </tr>
-
     <tr>
         <td style="width: 411px; font-family: verdana; font-size: 11px; color: #ffffff; text-align: center; padding-top:15px; padding-bottom: 80px">
             <a href="www.mcbdapelotas.com.br" style="text-decoration: none;color: #ffffff">www.mcbdapelotas.com.br</a>

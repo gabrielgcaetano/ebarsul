@@ -8,7 +8,7 @@
                 <tr>
                     <td style="padding-top: 30px;" align="center">
                         <img src="{{ url('images/lgo/logo-ebalmoco-para-web.png') }}" alt="" border="0"
-                             style="display: block;">
+                             style="display: block; width: 150px">
                     </td>
                 </tr>
                 <tr>

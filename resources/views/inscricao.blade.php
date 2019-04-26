@@ -157,7 +157,7 @@
                     <h4 class="mt-20">Cidade - Estado</h4>
                     <input class="input-box" type="text" name="cidade" required>
                     <h4 class="mt-20">Facção</h4>
-                    <input class="input-box" type="text" name="faccao" required>
+                    <input class="input-box" type="text" name="faccao">
                     <h4 class="mt-20">Tipo</h4>
                     <select id="tipo" name="tipo" required>
                         <option value="irmao">Irmão</option>

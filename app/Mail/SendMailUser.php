@@ -32,7 +32,10 @@ class SendMailUser extends Mailable
     {
         $dados = $this->dados;
         return $this->from('teste@spacecode.tech', 'Atendimento')
-            ->to('gabriel.goulartcaetano@gmail.com')
+            ->to('araujo.ruicesar@gmail.com')
+            ->cc('maurograziadei@hotmail.com')
+            ->cc('henriquecavalaria@yahoo.com.br')
+            ->cc('sandro.sigtech@gmail.com')
             ->subject("Envio de Contato")
             ->view('emails.test', compact('dados'));
     }

@@ -47,6 +47,7 @@
                         <th>Cidade</th>
                         <th>Telefone</th>
                         <th>Tipo</th>
+                        <th>Facção</th>
                         <th>Camiseta</th>
                         <th>Status</th>
                     </tr>
@@ -58,6 +59,7 @@
                             <td><p style="text-align: center;">{{ $inscrito->cidade }}</p></td>
                             <td><p style="text-align: center;">{{ $inscrito->telefone }}</p></td>
                             <td><p style="text-align: center;">{{ $inscrito->tipo }}</p></td>
+                            <td><p style="text-align: center;">{{ $inscrito->faccao }}</p></td>
                             <td><p style="text-align: center;">{{ $inscrito->camiseta }}</p></td>
                             <td >
                                 @if( $inscrito->status  == 1)
@@ -83,8 +85,6 @@
         </div>
     </section>
 </main>
-
-@include('inc.footer')
 
 <script src="{{ url('js/jquery-3.2.1.min.js') }}"></script>
 <script src="{{ url('js/counter.min.js') }}"></script>

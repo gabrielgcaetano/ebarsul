@@ -140,6 +140,35 @@
                 <a class="link color-yellow" href="https://www.provinciacasahotel.com.br/" target="_blank" class="m-small">Acessar website do hotel</a>
             </div>
         </div>
+
+        <div class="equal-height-grid mt-50 bt-white pt-50">
+            <div class="grid-4 offset-4" data-aos="fade-right" data-aos-offset="100">
+                <img class="img-center" style="width:200px;height:200px;" src="{{ url('images/lgo/logo-alles-blau.jpg') }}">
+            </div>
+            <div class="grid-8 offset-1 text-align-mobile" data-aos="fade-right" data-aos-offset="100">
+                <h3 class="color-yellow mt-20-mobile">Hotel Alles Blau</h3>
+                <p class="m-small">Rua Sete de Setembro, 354</p>
+                <p class="m-small">Bairro: Centro</p>
+                <p class="m-small">Cidade: Pelotas - RS</p>
+                <p class="m-small">Telefone: +55 (53) 3222-2223</p>
+                <a class="link color-yellow" href="http://www.hotelallesblau.com.br/index.html" target="_blank" class="m-small">Acessar website do hotel</a>
+            </div>
+        </div>
+
+        <div class="equal-height-grid mt-50 bt-white pt-50">
+            <div class="grid-4 offset-4" data-aos="fade-right" data-aos-offset="100">
+                <img class="img-center" style="width:200px;height:200px;" src="{{ url('images/lgo/logo-tourist.png') }}">
+            </div>
+            <div class="grid-8 offset-1 text-align-mobile" data-aos="fade-right" data-aos-offset="100">
+                <h3 class="color-yellow mt-20-mobile">Tourist Hotel</h3>
+                <p class="m-small">Rodovia BR-116, Km 521</p>
+                <p class="m-small">Bairro: Distrito Industrial</p>
+                <p class="m-small">Cidade: Pelotas - RS</p>
+                <p class="m-small">Telefone: +55 (53) 3271-9144</p>
+                <p class="m-small">E-mail: <a class="color-white" href="mailto:tourist@hoteismanta.com.br">tourist@hoteismanta.com.br</a></p>
+                <a class="link color-yellow" href="https://www.touristhotel.com.br/" target="_blank" class="m-small">Acessar website do hotel</a>
+            </div>
+        </div>
     </section>
 
     @include('inc.patrocinador')

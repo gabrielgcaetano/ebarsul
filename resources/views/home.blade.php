@@ -121,7 +121,15 @@
             </div>
         </div>
     </section>
-
+    <section class="section back-black-dark color-white py-30">
+        <div class="equal-height-grid-top">
+            <div class="grid-34 offset-1" data-aos="fade-up" data-aos-offset="300">
+                <a href="https://www.fenadoce.com.br/texto/menu--a-feira" target="_blank"><img class="img-center"
+                                                                                               style="width:600px;height:auto;"
+                                                                                               src="{{ url('images/lgo/banner-fenadoce.png') }}"></a>
+            </div>
+        </div>
+    </section>
     <section class="section back-yellow color-black py-30">
         <div class="equal-height-grid-top">
             <div class="grid-16 offset-1" data-aos="fade-right" data-aos-offset="300">
@@ -157,22 +165,9 @@
                 <h2 class="title-white mt-50-mobile">Como chegar</h2>
                 <div class="back-black px-5 py-5">
                     <div class="back-white px-5 py-5">
-                        {{--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44159.8292078878!2d-51.10761440116125!3d-26.2206296548627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e661be7d2917b7%3A0x732ca39d34e48b6c!2sHotel+10!5e0!3m2!1spt-BR!2sbr!4v1520195277665"--}}
-                        {{--width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>--}}
                         <div style="overflow:hidden;width:100%;position: relative;">
-                            <iframe width="100%" height="300"
-                                    src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=Pelotas+(Pelotas%20-%20Princesa%20do%20Sul)&amp;ie=UTF8&amp;t=&amp;z=11&amp;iwloc=B&amp;output=embed"
-                                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-                            <div style="position: absolute;width: 80%;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;">
-                                <small style="line-height: 1.8;font-size: 2px;background: #fff;">Powered by <a
-                                            href="embedgooglemaps.com/pt/">https://embedgooglemaps.com/pt/</a> & <a
-                                            href="http://www.stedentrippers.nl/berlijn.html">Stedentrippers NL</a>
-                                </small>
-                            </div>
-                            <style>#gmap_canvas img {
-                                    max-width: none !important;
-                                    background: none !important
-                                }</style>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d217429.63315208658!2d-52.47230177052231!3d-31.62459424075517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95104991ad796447%3A0x99bab4aec1bd644f!2sPelotas+-+Princesa%2C+Pelotas+-+RS!5e0!3m2!1spt-BR!2sbr!4v1556232476125!5m2!1spt-BR!2sbr"
+                                    width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                         </div>
                         <br/>
                     </div>
