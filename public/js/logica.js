@@ -48,14 +48,15 @@ function onLostFocusDocumento() {
 /*
     Atualiza o contador da data do evento
  */
-var YY = 2019;
-var MM = 6;
-var DD = 8;
-var HH = 10;
-var MI = 0;
-var SS = 0;
 
 function atualizaContador() {
+    var YY = 2019;
+    var MM = 6;
+    var DD = 8;
+    var HH = 10;
+    var MI = 0;
+    var SS = 0;
+
     var hoje = new Date();
     var futuro = new Date(YY, MM - 1, DD, HH, MI, SS);
     var ss = parseInt((futuro - hoje) / 1000);
@@ -77,6 +78,60 @@ function atualizaContador() {
     } else {
         document.getElementById('contador').innerHTML = 'Evento Começou!!!!';
         setTimeout(atualizaContador, 1000);
+    }
+}
+
+function bloqueiaCamiseta() {
+    var aYY = 2019;
+    var aMM = 5;
+    var aDD = 20;
+    var aHH = 23;
+    var aMI = 59;
+    var aSS = 59;
+
+    var ahoje = new Date();
+    var afuturo = new Date(aYY, aMM - 1, aDD, aHH, aMI, aSS);
+    var ass = parseInt((afuturo - ahoje) / 1000);
+    var amm = parseInt(ass / 60);
+    var ahh = parseInt(amm / 60);
+    var add = parseInt(ahh / 24);
+    ass = ass - (amm * 60);
+    amm = amm - (ahh * 60);
+    ahh = ahh - (add * 24);
+
+    if (add + ahh + amm + ass > 0) {
+        document.getElementById("divCamiseta").style.display = 'block';
+        document.getElementById("divCamisetaCunhada").style.display = 'block';
+    } else {
+        document.getElementById("divCamiseta").style.display = 'none';
+        document.getElementById("divCamisetaCunhada").style.display = 'none';
+    }
+}
+
+function bloqueiaInscricao() {
+    var aYY = 2019;
+    var aMM = 6;
+    var aDD = 5;
+    var aHH = 23;
+    var aMI = 59;
+    var aSS = 59;
+
+    var ahoje = new Date();
+    var afuturo = new Date(aYY, aMM - 1, aDD, aHH, aMI, aSS);
+    var ass = parseInt((afuturo - ahoje) / 1000);
+    var amm = parseInt(ass / 60);
+    var ahh = parseInt(amm / 60);
+    var add = parseInt(ahh / 24);
+    ass = ass - (amm * 60);
+    amm = amm - (ahh * 60);
+    ahh = ahh - (add * 24);
+
+    if (add + ahh + amm + ass > 0) {
+        document.getElementById("divInscricao").style.display = 'block';
+        document.getElementById("divEventoEncerrado").style.display = 'none';
+    } else {
+        document.getElementById("divInscricao").style.display = 'none';
+        document.getElementById("divEventoEncerrado").style.display = 'block';
     }
 }
 

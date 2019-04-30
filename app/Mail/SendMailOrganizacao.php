@@ -29,7 +29,13 @@ class SendMailOrganizacao extends Mailable
     public function build()
     {
         $dados = $this->dados;
-        return $this->from('teste@spacecode.tech', 'Atendimento - EBAR')
+        /*return $this->from('teste@spacecode.tech', 'Atendimento - EBAR')
+            ->to('araujo.ruicesar@gmail.com')
+            ->subject("Cadastro de Membro Evento")
+            ->attach(storage_path("app/comprovantes/" . $dados['arquivo']))
+            ->view('emails.organizacao', compact('dados'));
+        */
+        return $this->from('teste@spacecode.tech', 'Atendimento - EBAlmoço')
             ->to('gabriel.goulartcaetano@gmail.com')
             ->subject("Cadastro de Membro Evento")
             ->attach(storage_path("app/comprovantes/" . $dados['arquivo']))

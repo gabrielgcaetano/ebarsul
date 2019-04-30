@@ -13,7 +13,7 @@
                 </tr>
                 <tr>
                     <td style="font-family: Georgia ; font-weight: bold; font-size: 24px; color: #334A6C; text-align: center; padding-top: 40px; letter-spacing: 2px;">
-                        Você se inscreveu no <br>EBAR
+                        Você se inscreveu no <br>EBAlmoço
                     </td>
                 </tr>
                 <tr>

@@ -66,27 +66,31 @@
                         <th>Tipo</th>
                         <th>Camiseta</th>
                         <th>Facção</th>
+                        <th>Cunhada</th>
+                        <th>Camiseta Cunhada</th>
                         <th>Status</th>
                         <th>Opção</th>
                         <th>Comprovante</th>
                     </tr>
                     @forelse($inscritos as $inscrito)
                         <tr>
-                            <td><p style="margin-left: 30px;">{{ $inscrito->nome }}</p></td>
-                            <td><p style="margin-left: 30px;">{{ $inscrito->email }}</p></td>
-                            <td><p style="margin-left: 30px;">{{ $inscrito->documento }}</p></td>
-                            <td><p style="margin-left: 30px;">{{ $inscrito->cidade }}</p></td>
-                            <td><p style="margin-left: 30px;">{{ $inscrito->telefone }}</p></td>
-                            <td><p style="margin-left: 30px;">{{ $inscrito->tipo }}</p></td>
-                            <td><p style="margin-left: 30px;">{{ $inscrito->camiseta }}</p></td>
-                            <td><p style="margin-left: 30px;">{{ $inscrito->faccao }}</p></td>
+                            <td><p style="margin-left: 30px;font-size:10px;">{{ $inscrito->nome }}</p></td>
+                            <td><p style="margin-left: 30px;font-size:10px;">{{ $inscrito->email }}</p></td>
+                            <td><p style="margin-left: 30px;font-size:10px;">{{ $inscrito->documento }}</p></td>
+                            <td><p style="margin-left: 30px;font-size:10px;">{{ $inscrito->cidade }}</p></td>
+                            <td><p style="margin-left: 30px;font-size:10px;">{{ $inscrito->telefone }}</p></td>
+                            <td><p style="margin-left: 30px;font-size:10px;">{{ $inscrito->tipo }}</p></td>
+                            <td><p style="margin-left: 30px;font-size:10px;">{{ $inscrito->camiseta }}</p></td>
+                            <td><p style="margin-left: 30px;font-size:10px;">{{ $inscrito->faccao }}</p></td>
+                            <td><p style="margin-left: 30px;font-size:10px;">{{ $inscrito->cunhada }}</p></td>
+                            <td><p style="margin-left: 30px;font-size:10px;">{{ $inscrito->camisetaCunhada }}</p></td>
                             <td>
                                 @if( $inscrito->status  == 1)
-                                    <p style="margin-left: 30px;">PENDENTE</p>
+                                    <p style="margin-left: 30px;font-size:10px;">PENDENTE</p>
                                 @elseif( $inscrito->status == 2)
-                                    <p style="margin-left: 30px;">APROVADO</p>
+                                    <p style="margin-left: 30px;font-size:10px;">APROVADO</p>
                                 @else
-                                    <p style="margin-left: 30px;">CANCELADO</p>
+                                    <p style="margin-left: 30px;font-size:10px;">CANCELADO</p>
                                 @endif
                             </td>
                             <td>

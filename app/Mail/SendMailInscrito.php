@@ -29,7 +29,7 @@ class SendMailInscrito extends Mailable
     public function build()
     {
         $dados = $this->dados;
-        return $this->from('teste@spacecode.tech', 'Atendimento - EBAR')
+        return $this->from('teste@spacecode.tech', 'Atendimento - EBAlmoço')
             ->to($dados['email'])
             ->subject("Inscrição Recebida")
             ->view('emails.inscricao', compact('dados'));

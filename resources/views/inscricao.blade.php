@@ -72,7 +72,7 @@
         }
     </style>
 </head>
-<body onLoad="atualizaContador(); inscricaoPronta({{$inscricaoFeita}})">
+<body onLoad="atualizaContador(); inscricaoPronta({{$inscricaoFeita}});bloqueiaCamiseta();bloqueiaInscricao();">
 
 @include('inc.head')
 
@@ -108,18 +108,28 @@
         </div>
         <div id="formulario-menu" class="equal-height-grid-top" style="display: none">
             <div class="grid-34 offset-1">
-                <a onclick="onClickFormularioInscricao()" class="btn btn-yellow mt-20">
-                    Inscrever
-                </a>
+                <div id="divInscricao">
+                    <a onclick="onClickFormularioInscricao()" class="btn btn-yellow mt-20">
+                        Inscrever
+                    </a>
+                </div>
+                <div id="divEventoEncerrado" style="display: none;">
+                    <h2 class="color-yellow mt-20-mobile">Inscrições Encerradas!</h2>
+                </div>
                 <br>
                 <a onclick="onClickListaInscritos()" class="btn btn-yellow mt-20">
                     Lista de Inscritos
                 </a>
                 <div class="equal-height-grid mt-50 bt-white pt-50">
                     <div class="grid-10 offset-1 text-align-mobile">
-                        <p class="m-small">Custo por participante: R$ 60,00 (com direito ao almoço e uma camiseta do evento)</p>
-                        <p class="m-small">- Bebida cobrada a parte</p>
+                        <h3 class="color-yellow mt-20-mobile">Inscrições</h3>
+                        <p class="m-small">( Limitadas a 180 participantes )</p>
+                        <p class="m-small color-yellow">Custo por participante</p>
+                        <p class="m-small">R$ 60,00 ( até 20/05/2019 ), com direito a camiseta</p>
+                        <p class="m-small">R$ 70,00 ( até 05/06/2019 ), sem direito a camiseta</p>
+                        <p class="m-small">Todo Inscrito tem direito ao almoço</p>
                         <p class="m-small">- Buffet pratos quentes e saladas</p>
+                        <p class="m-small">- Bebida cobrada a parte</p>
                     </div>
                 </div>
                 <div class="equal-height-grid mt-50 bt-white pt-50">
@@ -161,27 +171,51 @@
                     <h4 class="mt-20">Tipo</h4>
                     <select id="tipo" name="tipo" required>
                         <option value="irmao">Irmão</option>
-                        <option value="cunhada">Cunhada</option>
                         <option value="convidado">Convidado</option>
                     </select>
+                    <div id="divCamiseta" style="display: none">
+                        <h4 class="mt-20">Camisetas</h4>
+                        <select id="camiseta" name="camiseta" required>
+                            <option value="-">Selecione a camiseta</option>
+                            <option value="M-P">Masc. P</option>
+                            <option value="M-M">Masc. M</option>
+                            <option value="M-G">Masc. G</option>
+                            <option value="M-GG">Masc. GG</option>
+                            <option value="M-XGG">Masc. XGG</option>
+                            <option value="M-XXGG">Masc. XXGG</option>
+                            <option value="M-XXXGG">Masc. XXXGG</option>
+                            <option value="F-P">Fem. P</option>
+                            <option value="F-M">Fem. M</option>
+                            <option value="F-G">Fem. G</option>
+                            <option value="F-GG">Fem. GG</option>
+                            <option value="F-XGG">Fem. XGG</option>
+                            <option value="F-XXGG">Fem. XXGG</option>
+                            <option value="F-XXXGG">Fem. XXXGG</option>
+                        </select>
+                    </div>
 
-                    <h4 class="mt-20">Camisetas</h4>
-                    <select id="camiseta" name="camiseta" required>
-                        <option value="M-P">Masc. P</option>
-                        <option value="M-M">Masc. M</option>
-                        <option value="M-G">Masc. G</option>
-                        <option value="M-GG">Masc. GG</option>
-                        <option value="M-XGG">Masc. XGG</option>
-                        <option value="M-XXGG">Masc. XXGG</option>
-                        <option value="M-XXXGG">Masc. XXXGG</option>
-                        <option value="F-P">Fem. P</option>
-                        <option value="F-M">Fem. M</option>
-                        <option value="F-G">Fem. G</option>
-                        <option value="F-GG">Fem. GG</option>
-                        <option value="F-XGG">Fem. XGG</option>
-                        <option value="F-XXGG">Fem. XXGG</option>
-                        <option value="F-XXXGG">Fem. XXXGG</option>
-                    </select>
+                    <h4 class="mt-20">Cunhada</h4><span>Se estiver solo, Preencha SEM ACOMPANHANTE</span>
+                    <input class="input-box" type="text" name="cunhada">
+                    <div id="divCamisetaCunhada" style="display: none">
+                        <h4 class="mt-20">Camisetas Cunhada</h4>
+                        <select id="camisetaCunhada" name="camisetaCunhada">
+                            <option value="-">Selecione a camiseta</option>
+                            <option value="F-P">Fem. P</option>
+                            <option value="F-M">Fem. M</option>
+                            <option value="F-G">Fem. G</option>
+                            <option value="F-GG">Fem. GG</option>
+                            <option value="F-XGG">Fem. XGG</option>
+                            <option value="F-XXGG">Fem. XXGG</option>
+                            <option value="F-XXXGG">Fem. XXXGG</option>
+                            <option value="M-P">Masc. P</option>
+                            <option value="M-M">Masc. M</option>
+                            <option value="M-G">Masc. G</option>
+                            <option value="M-GG">Masc. GG</option>
+                            <option value="M-XGG">Masc. XGG</option>
+                            <option value="M-XXGG">Masc. XXGG</option>
+                            <option value="M-XXXGG">Masc. XXXGG</option>
+                        </select>
+                    </div>
                     <!-- Trigger/Open The Modal -->
                     <h1><br></h1>
                     <button id="myBtn" class="btn btn-yellow btn-sm">Ver tamanhos</button>
@@ -213,30 +247,18 @@
                 <table style="width:100%">
                     <tr>
                         <th>Nome</th>
-                        {{--<th>Email</th>--}}
-                        {{--<th>CPF</th>--}}
                         <th>Cidade</th>
-                        {{--<th>Telefone</th>--}}
                         <th>Tipo</th>
-                        {{--<th>Status</th>--}}
+                        <th>Facção</th>
+                        <th>Cunhada</th>
                     </tr>
                     @forelse($inscritos as $inscrito)
                         <tr>
                             <td><p style="margin-left: 30px;">{{ $inscrito->nome }}</p></td>
-                            {{--<td><p style="margin-left: 30px;">{{ $inscrito->email }}</p></td>--}}
-                            {{--<td><p style="margin-left: 30px;">{{ $inscrito->documento }}</p></td>--}}
                             <td><p style="margin-left: 30px;">{{ $inscrito->cidade }}</p></td>
-                            {{--<td><p style="margin-left: 30px;">{{ $inscrito->telefone }}</p></td>--}}
                             <td><p style="margin-left: 30px;">{{ $inscrito->tipo }}</p></td>
-                            {{--<td>--}}
-                            {{--@if( $inscrito->status  == 1)--}}
-                            {{--<p style="margin-left: 30px;">PENDENTE</p>--}}
-                            {{--@elseif( $inscrito->status == 2)--}}
-                            {{--<p style="margin-left: 30px;">APROVADO</p>--}}
-                            {{--@else--}}
-                            {{--<p style="margin-left: 30px;">CANCELADO</p>--}}
-                            {{--@endif--}}
-                            {{--</td>--}}
+                            <td><p style="margin-left: 30px;">{{ $inscrito->faccao }}</p></td>
+                            <td><p style="margin-left: 30px;">{{ $inscrito->cunhada }}</p></td>
                         </tr>
                     @empty
                         <h1>Nenhum Inscrito!</h1>

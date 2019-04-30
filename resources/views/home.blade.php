@@ -42,7 +42,7 @@
             <div class="grid-16 offset-1">
                 <h2 class="title-yellow">O evento</h2>
                 <p>O EBA almoço será o primeiro evento desta jovem facção, que com certeza servirá de base e experiência
-                    para outros muitos eventos.</strong>.</p>
+                    para outros eventos.</strong>.</p>
                 <h2 class="title-yellow mt-50">O que somos</h2>
                 <p>Somos um canal de comunicação entre os maçons x maçons motociclistas x motociclistas em geral.</p>
                 <p>Somos cidadãos que preservamos os ensinamentos Maçônicos.</p>

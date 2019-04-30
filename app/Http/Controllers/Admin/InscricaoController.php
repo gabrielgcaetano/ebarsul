@@ -60,9 +60,11 @@ class InscricaoController extends Controller
     public function enviaEmailOrganizacao(Inscrito $inscrito)
     {
         $ins = Inscrito::orderBy('id', 'desc')->first();
+        /*Mail::to("araujo.ruicesar@gmail.com")
+            ->send(new SendMailOrganizacao($ins));
+*/
         Mail::to("gabriel.goulartcaetano@gmail.com")
             ->send(new SendMailOrganizacao($ins));
-
         $inscritos = $inscrito::all();
         $inscricaoFeita = true;
         $param = true;
