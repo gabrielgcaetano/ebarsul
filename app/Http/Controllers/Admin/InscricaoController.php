@@ -100,7 +100,7 @@ class InscricaoController extends Controller
      */
     public function inscritos(Inscrito $inscrito)
     {
-        $inscritos = $inscrito::all()->sortBy('status');
+        $inscritos = $inscrito::all()->sortBy('id');
         $param = false;
         $inscricaoFeita = false;
         return view('inscritos', compact('inscritos', 'param', 'inscricaoFeita'));
@@ -108,7 +108,7 @@ class InscricaoController extends Controller
 
     public function listaInscritosBaixar(Inscrito $inscrito)
     {
-        $inscritos = $inscrito::all()->sortBy('status');
+        $inscritos = $inscrito::all()->sortBy('id');
         return view('formulario-impressao-inscritos', compact('inscritos'));
     }
 }
