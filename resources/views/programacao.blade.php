@@ -58,9 +58,9 @@
                 </p>
                 <h1><br></h1>
 
-                <p><strong>14:30</strong> Sairemos, em um bonde, com batedores da Guarda Municipal de Pelotas, com
-                    deslocamento até a praia do Laranjal, onde faremos a foto oficial do evento e de lá seguiremos até o
-                    Centro de Eventos da Fenadoce, na BR 392, para visitação a Feira Nacional do Doce.
+                <p><strong>14:30</strong> Saíremos, em um bonde, com escolta dos agentes de trânsito da SMTT, até o
+                    Centro de Eventos da Fenadoce, na BR 392. Para visitação a Feira Nacional do Doce, onde faremos a
+                    foto oficial do evento.
                 </p>
 
                 <h1><br></h1>

@@ -194,7 +194,7 @@
                         </select>
                     </div>
 
-                    <h4 class="mt-20">Cunhada</h4><span>Se estiver solo, Preencha SEM ACOMPANHANTE</span>
+                    <h4 class="mt-20">Cunhada</h4><span>Se estiver solo, Deixe em Branco</span>
                     <input class="input-box" type="text" name="cunhada">
                     <div id="divCamisetaCunhada" style="display: none">
                         <h4 class="mt-20">Camisetas Cunhada</h4>

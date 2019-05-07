@@ -53,6 +53,14 @@
                         <th>Camiseta Cunhada</th>
                         <th>Status</th>
                     </tr>
+
+                    @php
+                        $totalIrmao = 0;
+                        $totalCunhada = 0;
+                        $totalConvidados = 0;
+                    @endphp
+
+
                     @forelse($inscritos as $inscrito)
                         <tr>
                             <td><p style="margin-left: 5%;font-size:9px;">{{ $inscrito->nome }}</p></td>
@@ -65,7 +73,7 @@
                             <td><p style="text-align: center;font-size:9px;">{{ $inscrito->camiseta }}</p></td>
                             <td><p style="text-align: center;font-size:9px;">{{ $inscrito->cunhada }}</p></td>
                             <td><p style="text-align: center;font-size:9px;">{{ $inscrito->camisetaCunhada }}</p></td>
-                            <td >
+                            <td>
                                 @if( $inscrito->status  == 1)
                                     <p style="text-align: center;font-size:9px;">PENDENTE</p>
                                 @elseif( $inscrito->status == 2)
@@ -75,12 +83,31 @@
                                 @endif
                             </td>
                         </tr>
+                        @php
+                            if($inscrito->tipo == "convidado"){
+                                $totalConvidados = $totalConvidados +1;
+                                if (isset($inscrito->cunhada)&& $inscrito->cunhada != ""){
+                                    $totalConvidados = $totalConvidados + 1;
+                                }
+                            } else {
+                                $totalIrmao = $totalIrmao + 1;
+                                if (isset($inscrito->cunhada) && $inscrito->cunhada != ""){
+                                    $totalCunhada = $totalCunhada + 1;
+                                }
+                            }
+                        @endphp
                     @empty
                         <h1>Nenhum Inscrito!</h1>
                     @endforelse
                 </table>
                 <br>
                 <br>
+
+                <p>Total de irmãos : {{$totalIrmao}}</p>
+                <p>Total de cunhadas : {{$totalCunhada}}</p>
+                <p>Total de convidados : {{$totalConvidados}}</p>
+                <p>Total de Geral : {{$totalIrmao + $totalCunhada + $totalConvidados}}</p>
+
                 <br>
                 <form>
                     <input type="button" value="Imprimir" onClick="window.print()"/>
