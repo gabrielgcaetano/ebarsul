@@ -16,16 +16,36 @@
                  src="{{ url('images/lgo/logo-zuchelo.png') }}"
                  alt="Zuchelo - Incorporaçoes e Construções - Institucional"></a>
         <a href="http://olivejoias.com/contato" target="_blank">
-            <img class="img-inline-block mx-20 img-ptr-03" style="width: 150px"
+            <img class="img-inline-block mx-20 img-ptr-03" style="width: 200px"
                  src="{{ url('images/lgo/logo-olive.png') }}"
                  alt="O'live Joias .:. Joias em ouro 18K"></a>
         <a href="http://frangolito.com.br/" target="_blank">
-            <img class="img-inline-block mx-20 img-ptr-04" style="width: 150px"
+            <img class="img-inline-block mx-20 img-ptr-04" style="width: 200px"
                  src="{{ url('images/lgo/logo-frangolito.png') }}"
                  alt="Frangolito - O irresistível frango no balde!"></a>
         <a href="http://www.fenadoce.com.br/" target="_blank">
-            <img class="img-inline-block mx-20 img-ptr-04" style="width: 150px"
+            <img class="img-inline-block mx-20 img-ptr-04" style="width: 200px"
                  src="{{ url('images/lgo/logo-fenadoce-2.png') }}"
                  alt="Fenadoce!"></a>
+        <a href="http://www.contalnorte.com.br/" target="_blank">
+            <img class="img-inline-block mx-20 img-ptr-04" style="width: 200px"
+                 src="{{ url('images/lgo/logo-contalnorte.png') }}"
+                 alt="Contal Norte Contabilidade"></a>
+        <a href="http://www.madelar.net/" target="_blank">
+            <img class="img-inline-block mx-20 img-ptr-04" style="width: 200px"
+                 src="{{ url('images/lgo/logo-madelar.png') }}"
+                 alt="Madelar Pelotas"></a>
+        <a href="#" target="_blank">
+            <img class="img-inline-block mx-20 img-ptr-04" style="width: 200px"
+                 src="{{ url('images/lgo/logo-reponte.png') }}"
+                 alt="Comercial Reponte"></a>
+        <a href="http://sertecempresarial.com.br/" target="_blank">
+            <img class="img-inline-block mx-20 img-ptr-04" style="width: 200px"
+                 src="{{ url('images/lgo/logo-sertec.png') }}"
+                 alt="Sertec Contabilidade"></a>
+        <a href="https://www.facebook.com/lojawgcelulares/" target="_blank">
+            <img class="img-inline-block mx-20 img-ptr-04" style="width: 200px"
+                 src="{{ url('images/lgo/logo-wgcelulares.jpg') }}"
+                 alt="WG Celulares Pelotas"></a>
     </div>
 </section>
