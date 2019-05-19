@@ -106,4 +106,16 @@ class Inscrito extends Model
         }
     }
 
+    function apagar(int $id)
+    {
+        DB::beginTransaction();
+        $inscrito = Inscrito::find($id);
+        $retorno = $inscrito->delete();
+        if ($retorno) {
+            DB::commit();
+        } else {
+            DB::rollback();
+        }
+    }
+
 }

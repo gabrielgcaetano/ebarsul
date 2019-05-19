@@ -117,15 +117,27 @@
                                 </li>
                             </td>
                             <td style="margin-left: 30px;">
-                                <form action="{{route("inscricao-download-comprovante")}}" method="post"
-                                      enctype="multipart/form-data" name="form">
-                                    {{ csrf_field() }}
-                                    <input type="text" name="nome" value="{{ $inscrito->arquivo }}" required
-                                           style="display: none">
-                                    <button type="submit" class="btn btn-yellow mt-20" style="width:100%; height:100%">
-                                        Baixar Comprovante
-                                    </button>
-                                </form>
+                                <li style="list-style: none">
+                                    <form action="{{route("inscricao-download-comprovante")}}" method="post"
+                                          enctype="multipart/form-data" name="form">
+                                        {{ csrf_field() }}
+                                        <input type="text" name="nome" value="{{ $inscrito->arquivo }}" required
+                                               style="display: none">
+                                        <button type="submit" class="btn btn-yellow mt-20" style="font-size:12px;width:100%; height:100%">
+                                            Baixar
+                                        </button>
+                                    </form>
+                                </li>
+                                <li style="list-style: none">
+                                    <div>
+                                        <a href="{{route('apagar', ['id' => $inscrito['id']])}}" target="_parent">
+                                            <button type="submit" class="btn btn-yellow mt-20"
+                                                    style="font-size:12px;width:100%; height:100%">
+                                                Excluir
+                                            </button>
+                                        </a>
+                                    </div>
+                                </li>
                             </td>
                         </tr>
                     @empty

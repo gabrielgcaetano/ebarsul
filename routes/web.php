@@ -74,3 +74,12 @@ $this->post('envio-email', 'Admin\ContatoController@enviaEmail')->name('envio-em
  *   Responsável pela listagem de inscritos da área administrativa
  */
 $this->get('inscritos', 'Admin\InscricaoController@inscritos')->name('inscritos');
+
+/*
+ *   Responsável por excluir a inscrição de um inscrito.
+ */
+$this->get('apagar/{id}', 'Admin\InscricaoController@apagar')->name('apagar');
+/*
+ *   Responsável por avisar que o registro está duplicado.
+ */
+$this->get('inscricao-duplicada', 'Admin\InscricaoController@duplicado')->name('inscricao-duplicada');

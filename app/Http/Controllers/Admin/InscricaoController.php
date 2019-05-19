@@ -26,9 +26,15 @@ class InscricaoController extends Controller
      */
     public function inscrever(Request $request, Inscrito $inscrito)
     {
+        try
+        {
         $dataForm = $request->all();
         $retorno = $inscrito->salvar($dataForm);
-        return redirect()->route('inscricao-enviar-email-inscrito');
+            return redirect()->route('inscricao-enviar-email-inscrito');
+        } catch (\Exception $e) {
+            return view('erro');
+        }
+
     }
 
     /*
@@ -110,5 +116,15 @@ class InscricaoController extends Controller
     {
         $inscritos = $inscrito::all()->sortBy('id');
         return view('formulario-impressao-inscritos', compact('inscritos'));
+    }
+
+    /*
+     *   Responsável por excluir a inscrição
+     */
+    public function apagar(int $id)
+    {
+        $inscrito = Inscrito::find($id);
+        $inscrito = Inscrito::destroy($id);
+        return redirect()->route('inscritos');
     }
 }
