@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <title>EBA ALMOÇO - 2019 | 8 de junho de 2019 em Pelotas - RS</title>
+    <title>EBA ALMOÇO - 2022 | 11 de junho de 2022 em Pelotas - RS</title>
     <meta name="description"
-          content="EBA ALMOÇO - 2019 | 8 de junho de 2019 em Pelotas - RS | Moto Clube Bodes do Asfalto | ">
+          content="EBA ALMOÇO - 2022 | 11 de junho de 2022 em Pelotas - RS | Moto Clube Bodes do Asfalto | ">
     <link href="{{ url('css/fonts.googleapis.com/csse38d.css?family=Oswald:300,400,500,600,700')}}" rel="stylesheet">
-    <link rel="stylesheet" href="{{ url('css/global.min.css') }}" media="screen">
+    <link rel="stylesheet" href="{{ url('css/global_01.min.css') }}" media="screen">
     <script src="{{ url('scripts/dist/modernizr.js')}}"></script>
 
     <!-- Favicon and touch icons -->
@@ -34,8 +34,8 @@
         <div class="equal-height-grid">
             <div class="grid-34 offset-1">
                 <h2 class="title-yellow">Programação</h2>
-                <p>Confira a programação completa do <strong> EBA Almoço - 2019</strong>:</p>
-                <h2 class="title-yellow mt-20">08 de Junho – Sábado</h2>
+                <p>Confira a programação completa do <strong> EBA Almoço - 2022</strong>:</p>
+                <h2 class="title-yellow mt-20">11 de Junho – Sábado</h2>
                 <p><strong>10:00</strong> Estaremos aguardando por vocês no estacionamento do Centro Português 1° de
                     Dezembro, Via de Acesso a Praia do Laranjal, com café, chá, chimarrão,
                     salgadinhos e muito calor humano.</p>
@@ -50,24 +50,21 @@
                         width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                 <h1><br></h1>
 
-                <p><strong>13:00</strong> Será servido o Almoço no Restaurante do Centro Português, pelo maitre
-                    Paulinho.
-                    No buffet teremos frango, peixe, porco, escalope de alcatra e saladas diversas.
-
-                    Sobremesa: doces de Pelotas.
+                <p><strong>12:30</strong> Será servido o almoço no restaurante do centro Português, pelo maitre Paulinho.
+                Buffet com feijoada.
                 </p>
                 <h1><br></h1>
 
-                <p><strong>14:30</strong> Saíremos, em um bonde, com escolta dos agentes de trânsito da SMTT, até o
+                <p><strong>14:00</strong> Saíremos, em um bonde, com escolta dos agentes de trânsito da SMTT, até o
                     Centro de Eventos da Fenadoce, na BR 392. Para visitação a Feira Nacional do Doce, onde faremos a
                     foto oficial do evento.
                 </p>
 
                 <h1><br></h1>
 
-                <a href="https://www.fenadoce.com.br/texto/menu--a-feira" target="_blank"><img class="img-center"
+                <a href="https://fenadoce.com.br/a-feira/" target="_blank"><img class="img-center"
                                                                                                style="width:600px;height:auto;"
-                                                                                               src="{{ url('images/lgo/banner-fenadoce.png') }}"></a>
+                                                                                               src="{{ url('images/lgo/banner-fenadoce-2022.png') }}"></a>
 
                 <h1><br></h1>
 

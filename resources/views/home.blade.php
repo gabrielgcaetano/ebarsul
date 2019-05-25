@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <title>EBA ALMOÇO - 2019 | 8 de junho de 2019 em Pelotas - RS</title>
+    <title>EBA ALMOÇO - 2022 | 11 de junho de 2022 em Pelotas - RS</title>
     <meta name="description"
-          content="EBA ALMOÇO - 2019 | 8 de junho de 2019 em Pelotas - RS | Moto Clube Bodes do Asfalto | ">
+          content="EBA ALMOÇO - 2022 | 11 de junho de 2022 em Pelotas - RS | Moto Clube Bodes do Asfalto | ">
     <link href="{{ url('css/fonts.googleapis.com/csse38d.css?family=Oswald:300,400,500,600,700')}}" rel="stylesheet">
-    <link rel="stylesheet" href="{{ url('css/global.min.css') }}" media="screen">
+    <link rel="stylesheet" href="{{ url('css/global_01.min.css') }}" media="screen">
     <script src="{{ url('scripts/dist/modernizr.js')}}"></script>
     <script src="{{ url('js/logica.js')}}"></script>
 
@@ -41,8 +41,8 @@
         <div class="equal-height-grid-top">
             <div class="grid-16 offset-1">
                 <h2 class="title-yellow">O evento</h2>
-                <p>O EBA almoço será o primeiro evento desta jovem facção, que com certeza servirá de base e experiência
-                    para outros eventos.</strong>.</p>
+                <p>O EBA almoço será o segundo evento desta jovem facção, que com certeza servirá de base e experiência
+                    para outros eventos.</strong></p>
                 <h2 class="title-yellow mt-50">O que somos</h2>
                 <p>Somos um canal de comunicação entre os maçons x maçons motociclistas x motociclistas em geral.</p>
                 <p>Somos cidadãos que preservamos os ensinamentos Maçônicos.</p>
@@ -51,14 +51,14 @@
             <div class="grid-16 offset-2">
                 <h2 class="title-yellow mt-50-mobile">Moto Clube Bodes do Asfalto</h2>
                 <p>O <strong>Moto Clube Bodes do Asfalto</strong> surgiu a partir de discussões entre maçons,
-                    integrantes da lista de discussão de Atalaia, em primeiro de agosto de 2003 e tem sua sede nacional
+                    integrantes da lista de discussão Atalaia, em primeiro de agosto de 2003 e tem sua sede nacional
                     na cidade de Feira de Santana – Bahia.</p>
                 <p>Criado pelo irmão Edson Fernando Sobrinho, o Moto Clube tem como propósito auxiliar os maçons
                     motociclistas que, em suas viagens, precisam de ajuda, bem como aproximar os irmãos motociclistas
                     dos moradores das cidades por onde passam.</p>
                 <img class="img-center mt-30 mb-30" alt="Moto Clube Bodes do Asfalto"
                      src="{{ url('images/lgo/moto-clube-bodes-do-asfalto.png') }}">
-                <p>Hoje, o <strong>MCBDA</strong> possui mais de oito mil integrantes, com representações em diversas
+                <p>Hoje, o <strong>MCBDA</strong> possui mais de dez mil integrantes, com representações em diversas
                     cidades do Brasil e do exterior. Entre as atividades desenvolvidas anualmente pela Fraternidade
                     estão os Encontros dos Bodes do Asfalto, que podem ser de caráter nacional – EBAN, regional – EBAR,
                     ou municipal - EBA.</p>
@@ -78,7 +78,7 @@
                 <p>Oriundos da Facção Extremo Sul- RS, 16 Irmãos reuniram-se com o intuíto de criar uma nova Facção,
                     visando aumentar a participação de maçons motociclistas de Pelotas no Moto Clube.
                 </p>
-                <p>Passado um ano desde a sua fundação, somos hoje 23 integrantes e participamos de vários encontros e
+                <p>Passado um ano desde a sua fundação, somos hoje 33 integrantes e participamos de vários encontros e
                     eventos do MCBDA.
                 </p>
             </div>
@@ -126,7 +126,7 @@
             <div class="grid-34 offset-1" data-aos="fade-up" data-aos-offset="300">
                 <a href="https://www.fenadoce.com.br/texto/menu--a-feira" target="_blank"><img class="img-center"
                                                                                                style="width:600px;height:auto;"
-                                                                                               src="{{ url('images/lgo/banner-fenadoce.png') }}"></a>
+                                                                                               src="{{ url('images/lgo/banner-fenadoce-2022.png') }}"></a>
             </div>
         </div>
     </section>
@@ -180,14 +180,14 @@
         <div class="equal-height-grid-top">
             <div class="grid-16 offset-1" data-aos="fade-right" data-aos-offset="300">
                 <h2 class="title-yellow">Programação</h2>
-                <p>Confira a programação completa do <strong>EBA ALMOÇO - 2019</strong> clicando no botão abaixo.</p>
+                <p>Confira a programação completa do <strong>EBA ALMOÇO - 2022</strong> clicando no botão abaixo.</p>
                 <a href="{{ route('programacao') }}" target="_self" class="btn btn-yellow mt-20">
                     Programação completa
                 </a>
             </div>
             <div class="grid-16 offset-2" data-aos="fade-left" data-aos-offset="300">
                 <h2 class="title-yellow mt-50-mobile">Inscrições</h2>
-                <p>Faça sua inscrição no <strong>EBA ALMOÇO - 2019</strong> clicando no botão abaixo.</p>
+                <p>Faça sua inscrição no <strong>EBA ALMOÇO - 2022</strong> clicando no botão abaixo.</p>
                 <a href="{{ route('inscricao') }}" target="_self" class="btn btn-yellow mt-20">
                     Inscrição
                 </a>

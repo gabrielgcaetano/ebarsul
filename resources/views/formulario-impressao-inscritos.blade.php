@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <title>EBA ALMOÇO - 2019 | 8 de junho de 2019 em Pelotas - RS</title>
+    <title>EBA ALMOÇO - 2022 | 11 de junho de 2022 em Pelotas - RS</title>
     <meta name="description"
-          content="EBA ALMOÇO - 2019 | 8 de junho de 2019 em Pelotas - RS | Moto Clube Bodes do Asfalto | ">
+          content="EBA ALMOÇO - 2022 | 11 de junho de 2022 em Pelotas - RS | Moto Clube Bodes do Asfalto | ">
     <link href="{{ url('css/fonts.googleapis.com/csse38d.css?family=Oswald:300,400,500,600,700')}}" rel="stylesheet">
-    <link rel="stylesheet" href="{{ url('css/global.min.css') }}" media="screen">
+    <link rel="stylesheet" href="{{ url('css/global_01.min.css') }}" media="screen">
     <script src="{{ url('scripts/dist/modernizr.js')}}"></script>
     <script src="{{ url('js/logica.js')}}"></script>
 
@@ -43,14 +43,11 @@
                     <tr>
                         <th>Nome</th>
                         <th>Email</th>
-                        <th>CPF</th>
                         <th>Cidade</th>
                         <th>Telefone</th>
                         <th>Tipo</th>
                         <th>Facção</th>
-                        <th>Camiseta</th>
                         <th>Cunhada</th>
-                        <th>Camiseta Cunhada</th>
                         <th>Status</th>
                     </tr>
 
@@ -65,14 +62,12 @@
                         <tr>
                             <td><p style="margin-left: 5%;font-size:9px;">{{ $inscrito->nome }}</p></td>
                             <td><p style="margin-left: 5%;font-size:9px;">{{ $inscrito->email }}</p></td>
-                            <td><p style="text-align: center;font-size:9px;">{{ $inscrito->documento }}</p></td>
+                            
                             <td><p style="text-align: center;font-size:9px;">{{ $inscrito->cidade }}</p></td>
                             <td><p style="text-align: center;font-size:9px;">{{ $inscrito->telefone }}</p></td>
                             <td><p style="text-align: center;font-size:9px;">{{ $inscrito->tipo }}</p></td>
                             <td><p style="text-align: center;font-size:9px;">{{ $inscrito->faccao }}</p></td>
-                            <td><p style="text-align: center;font-size:9px;">{{ $inscrito->camiseta }}</p></td>
                             <td><p style="text-align: center;font-size:9px;">{{ $inscrito->cunhada }}</p></td>
-                            <td><p style="text-align: center;font-size:9px;">{{ $inscrito->camisetaCunhada }}</p></td>
                             <td>
                                 @if( $inscrito->status  == 1)
                                     <p style="text-align: center;font-size:9px;">PENDENTE</p>

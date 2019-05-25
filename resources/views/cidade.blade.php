@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <title>EBA ALMOÇO - 2019 | 8 de junho de 2019 em Pelotas - RS</title>
+    <title>EBA ALMOÇO - 2022 | 11 de junho de 2022 em Pelotas - RS</title>
     <meta name="description"
-          content="EBA ALMOÇO - 2019 | 8 de junho de 2019 em Pelotas - RS | Moto Clube Bodes do Asfalto | ">
+          content="EBA ALMOÇO - 2022 | 11 de junho de 2022 em Pelotas - RS | Moto Clube Bodes do Asfalto | ">
     <link href="{{ url('css/fonts.googleapis.com/csse38d.css?family=Oswald:300,400,500,600,700')}}" rel="stylesheet">
-    <link rel="stylesheet" href="{{ url('css/global.min.css') }}" media="screen">
+    <link rel="stylesheet" href="{{ url('css/global_01.min.css') }}" media="screen">
     <script src="{{ url('scripts/dist/modernizr.js')}}"></script>
 
     <!-- Favicon and touch icons -->
@@ -50,7 +50,7 @@
             <div class="grid-16 offset-1" data-aos="fade-left" data-aos-offset="300">
                 <div class="back-yellow px-5 py-5">
                     <div class="back-white px-5 py-5">
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/VdpM0QFdOcs?autoplay=1"
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/j5Aeln60sA4?autoplay=1"
                                 frameborder="0"
                                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>

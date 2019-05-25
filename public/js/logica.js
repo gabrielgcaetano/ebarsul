@@ -50,9 +50,9 @@ function onLostFocusDocumento() {
  */
 
 function atualizaContador() {
-    var YY = 2019;
+    var YY = 2022;
     var MM = 6;
-    var DD = 8;
+    var DD = 11;
     var HH = 10;
     var MI = 0;
     var SS = 0;
@@ -109,9 +109,9 @@ function bloqueiaCamiseta() {
 }
 
 function bloqueiaInscricao() {
-    var aYY = 2019;
+    var aYY = 2022;
     var aMM = 6;
-    var aDD = 5;
+    var aDD = 7;
     var aHH = 23;
     var aMI = 59;
     var aSS = 59;

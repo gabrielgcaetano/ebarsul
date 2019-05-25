@@ -1,8 +1,18 @@
 <header class="header">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139842639-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-139842639-1');
+    </script>
+
     <div class="mobile-content">
         <div class="text-center">
             <img class="ml-45"
-                 alt="EBA ALMOÇO - 2019 | 8 de junho de 2019 em Pelotas - RS | Moto Clube Bodes do Asfalto | "
+                 alt="EBA ALMOÇO - 2022 | 11 de junho de 2022 em Pelotas - RS | Moto Clube Bodes do Asfalto | "
                  src="{{ url('images/lgo/logo-ebalmoco-para-web.png') }}" style="width: 250px">
         </div>
     </div>
@@ -15,11 +25,11 @@
                 <h1 class="">
                     <a class="fade menu-logo logo-big"  href="{{ route('evento') }}" target="_self" data-aos="zoom-in"
                        data-aos-duration="1000">
-                        <img alt="EBA ALMOÇO - 2019 | 8 de junho de 2019 em Pelotas - RS | Moto Clube Bodes do Asfalto | "
+                        <img alt="EBA ALMOÇO - 2022 | 11 de junho de 2022 em Pelotas - RS | Moto Clube Bodes do Asfalto | "
                              src="{{ url('images/lgo/logo-ebalmoco-para-web.png') }}" style="width: 250px">
                     </a>
                     <a class="fade menu-logo logo-small" href="{{ route('evento') }}" target="_self">
-                        <img alt="EBA ALMOÇO - 2019 | 8 de junho de 2019 em Pelotas - RS | Moto Clube Bodes do Asfalto | "
+                        <img alt="EBA ALMOÇO - 2022 | 11 de junho de 2022 em Pelotas - RS | Moto Clube Bodes do Asfalto | "
                              src="{{ url('images/lgo/logo-ebalmoco-para-web.png') }}">
                     </a>
                 </h1>

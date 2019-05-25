@@ -26,7 +26,7 @@
                             </tr>
                             <tr>
                                 <td style="font-family: verdana; font-size: 13px; color: #334A6C;text-align: center;letter-spacing: 1px;">
-                                    O evento acontecerá no dia 08/06/2019 apartir das 10:00
+                                    O evento acontecerá no dia 11/06/2022 apartir das 10:00
                                 </td>
                             </tr>
                             <tr>

@@ -16,7 +16,7 @@ class ContatoController extends Controller
     }
 
     public function enviaEmail(Request $request){
-        Mail::to('gabriel.goulartcaetano@gmail.com')
+        Mail::to('araujo.ruicesar@gmail.com')
             ->send(new SendMailUser($request->all()));
         $param = true;
         return view('contato', compact('param'));

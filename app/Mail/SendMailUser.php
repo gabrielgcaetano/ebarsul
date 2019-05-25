@@ -31,7 +31,7 @@ class SendMailUser extends Mailable
     public function build()
     {
         $dados = $this->dados;
-        return $this->from('teste@spacecode.tech', 'Atendimento')
+        return $this->from('teste@spacecodegc.com.br', 'Atendimento')
             ->to('araujo.ruicesar@gmail.com')
             ->cc('maurograziadei@hotmail.com')
             ->cc('henriquecavalaria@yahoo.com.br')

@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <title>EBA ALMOÇO - 2019 | 8 de junho de 2019 em Pelotas - RS</title>
+    <title>EBA ALMOÇO - 2022 | 11 de junho de 2022 em Pelotas - RS</title>
     <meta name="description"
-          content="EBA ALMOÇO - 2019 | 8 de junho de 2019 em Pelotas - RS | Moto Clube Bodes do Asfalto | ">
+          content="EBA ALMOÇO - 2022 | 11 de junho de 2022 em Pelotas - RS | Moto Clube Bodes do Asfalto | ">
     <link href="{{ url('css/fonts.googleapis.com/csse38d.css?family=Oswald:300,400,500,600,700')}}" rel="stylesheet">
-    <link rel="stylesheet" href="{{ url('css/global.min.css') }}" media="screen">
+    <link rel="stylesheet" href="{{ url('css/global_01.min.css') }}" media="screen">
     <script src="{{ url('scripts/dist/modernizr.js')}}"></script>
     <script src="{{ url('js/logica.js')}}"></script>
 
@@ -123,13 +123,15 @@
                 <div class="equal-height-grid mt-50 bt-white pt-50">
                     <div class="grid-10 offset-1 text-align-mobile">
                         <h3 class="color-yellow mt-20-mobile">Inscrições</h3>
-                        <p class="m-small">( Limitadas a 180 participantes )</p>
+                        <p class="m-small">Limite inscrição até 07/06 ou quando alcançar o número máximo de participantes (130), o que acontecer primeiro</p>
+                        <br>
                         <p class="m-small color-yellow">Custo por participante</p>
-                        <p class="m-small">R$ 60,00 ( até 20/05/2019 ), com direito a camiseta</p>
-                        <p class="m-small">R$ 70,00 ( até 05/06/2019 ), sem direito a camiseta</p>
+                        <p class="m-small">R$ 65,00</p>
                         <p class="m-small">Todo Inscrito tem direito ao almoço</p>
                         <p class="m-small">- Buffet pratos quentes e saladas</p>
                         <p class="m-small">- Bebida cobrada a parte</p>
+                        <br>
+                        <p class="m-small">Cada participante terá direito ao ingresso da Fenadoce</p>
                     </div>
                 </div>
                 <div class="equal-height-grid mt-50 bt-white pt-50">
@@ -139,12 +141,18 @@
                             Dados para depósito do valor da inscrição
                         </h1>
 
-                        <h3 class="color-yellow mt-20-mobile">Banco do Brasil</h3>
-                        <p class="m-small">Valor da inscrição: R$ 60,00</p>
-                        <p class="m-small">Agência 2884-3</p>
-                        <p class="m-small">Conta 8866096-6</p>
+                        <h3 class="color-yellow mt-20-mobile">NuBank</h3>
+                        <p class="m-small">Valor da inscrição: R$ 65,00</p>
+                        <p class="m-small">Banco  260 NuBank</p>
+                        <p class="m-small">Agência 0001</p>
+                        <p class="m-small">Conta 8110674-6</p>
                         <p class="m-small">CPF 255.482.710-91</p>
                         <p class="m-small">Nome Rui César Maia de Araújo</p>
+                        <p class="m-small">Chave PIX Telefone: 53981118088</p>
+                        <br><br>
+                        <a href="https://nubank.com.br/pagar/tactd/Yt6r1t89dp" target="_blank">
+                            <img class="img-center aos-init aos-animate" style="width: 300px" alt="QR CODE PIX" src="{{ url('images/lgo/QRCODE-PIX-2022.png') }}">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -173,67 +181,10 @@
                         <option value="irmao">Irmão</option>
                         <option value="convidado">Convidado</option>
                     </select>
-                    <div id="divCamiseta" style="display: none">
-                        <h4 class="mt-20">Camisetas</h4>
-                        <select id="camiseta" name="camiseta" required>
-                            <option value="-">Selecione a camiseta</option>
-                            <option value="M-P">Masc. P</option>
-                            <option value="M-M">Masc. M</option>
-                            <option value="M-G">Masc. G</option>
-                            <option value="M-GG">Masc. GG</option>
-                            <option value="M-XGG">Masc. XGG</option>
-                            <option value="M-XXGG">Masc. XXGG</option>
-                            <option value="M-XXXGG">Masc. XXXGG</option>
-                            <option value="F-P">Fem. P</option>
-                            <option value="F-M">Fem. M</option>
-                            <option value="F-G">Fem. G</option>
-                            <option value="F-GG">Fem. GG</option>
-                            <option value="F-XGG">Fem. XGG</option>
-                            <option value="F-XXGG">Fem. XXGG</option>
-                            <option value="F-XXXGG">Fem. XXXGG</option>
-                        </select>
-                    </div>
-
                     <h4 class="mt-20">Cunhada</h4><span>Se estiver solo, Deixe em Branco</span>
                     <input class="input-box" type="text" name="cunhada">
-                    <div id="divCamisetaCunhada" style="display: none">
-                        <h4 class="mt-20">Camisetas Cunhada</h4>
-                        <select id="camisetaCunhada" name="camisetaCunhada">
-                            <option value="-">Selecione a camiseta</option>
-                            <option value="F-P">Fem. P</option>
-                            <option value="F-M">Fem. M</option>
-                            <option value="F-G">Fem. G</option>
-                            <option value="F-GG">Fem. GG</option>
-                            <option value="F-XGG">Fem. XGG</option>
-                            <option value="F-XXGG">Fem. XXGG</option>
-                            <option value="F-XXXGG">Fem. XXXGG</option>
-                            <option value="M-P">Masc. P</option>
-                            <option value="M-M">Masc. M</option>
-                            <option value="M-G">Masc. G</option>
-                            <option value="M-GG">Masc. GG</option>
-                            <option value="M-XGG">Masc. XGG</option>
-                            <option value="M-XXGG">Masc. XXGG</option>
-                            <option value="M-XXXGG">Masc. XXXGG</option>
-                        </select>
-                    </div>
                     <!-- Trigger/Open The Modal -->
                     <h1><br></h1>
-                    <button id="myBtn" class="btn btn-yellow btn-sm">Ver tamanhos</button>
-
-                    <!-- The Modal -->
-                    <div id="myModal" class="modal">
-                        <span class="close">&times;</span>
-                        <!-- Modal content -->
-                        <div class="modal-content">
-                            <img class="img-inline-block mx-20 img-ptr-02" style="width: 45%"
-                                 src="{{ url('images/fto/camiseta-masculina.png') }}"
-                                 alt="Zuchelo - Incorporaçoes e Construções - Institucional">
-                            <img class="img-inline-block mx-20 img-ptr-02" style="width: 45%"
-                                 src="{{ url('images/fto/camiseta-feminina.png') }}"
-                                 alt="Zuchelo - Incorporaçoes e Construções - Institucional">
-                        </div>
-
-                    </div>
                     <h4 class="mt-20">Anexo Comprovante de deposito.</h4>
                     <input type="file" name="arquivo" id="arquivo" required accept="image/*, application/pdf"><br>
                     <button type="submit" class="btn btn-yellow mt-20">

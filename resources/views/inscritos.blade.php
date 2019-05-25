@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <title>EBA ALMOÇO - 2019 | 8 de junho de 2019 em Pelotas - RS</title>
+    <title>EBA ALMOÇO - 2022 | 11 de junho de 2022 em Pelotas - RS</title>
     <meta name="description"
-          content="EBA ALMOÇO - 2019 | 8 de junho de 2019 em Pelotas - RS | Moto Clube Bodes do Asfalto | ">
+          content="EBA ALMOÇO - 2022 | 11 de junho de 2022 em Pelotas - RS | Moto Clube Bodes do Asfalto | ">
     <link href="{{ url('css/fonts.googleapis.com/csse38d.css?family=Oswald:300,400,500,600,700')}}" rel="stylesheet">
-    <link rel="stylesheet" href="{{ url('css/global.min.css') }}" media="screen">
+    <link rel="stylesheet" href="{{ url('css/global_01.min.css') }}" media="screen">
     <script src="{{ url('scripts/dist/modernizr.js')}}"></script>
     <script src="{{ url('js/logica.js')}}"></script>
 
@@ -64,10 +64,8 @@
                         <th>Cidade</th>
                         <th>Telefone</th>
                         <th>Tipo</th>
-                        <th>Camiseta</th>
                         <th>Facção</th>
                         <th>Cunhada</th>
-                        <th>Camiseta Cunhada</th>
                         <th>Status</th>
                         <th>Opção</th>
                         <th>Comprovante</th>
@@ -80,10 +78,8 @@
                             <td><p style="margin-left: 30px;font-size:10px;">{{ $inscrito->cidade }}</p></td>
                             <td><p style="margin-left: 30px;font-size:10px;">{{ $inscrito->telefone }}</p></td>
                             <td><p style="margin-left: 30px;font-size:10px;">{{ $inscrito->tipo }}</p></td>
-                            <td><p style="margin-left: 30px;font-size:10px;">{{ $inscrito->camiseta }}</p></td>
                             <td><p style="margin-left: 30px;font-size:10px;">{{ $inscrito->faccao }}</p></td>
                             <td><p style="margin-left: 30px;font-size:10px;">{{ $inscrito->cunhada }}</p></td>
-                            <td><p style="margin-left: 30px;font-size:10px;">{{ $inscrito->camisetaCunhada }}</p></td>
                             <td>
                                 @if( $inscrito->status  == 1)
                                     <p style="margin-left: 30px;font-size:10px;">PENDENTE</p>
@@ -117,17 +113,15 @@
                                 </li>
                             </td>
                             <td style="margin-left: 30px;">
-                                <li style="list-style: none">
-                                    <form action="{{route("inscricao-download-comprovante")}}" method="post"
-                                          enctype="multipart/form-data" name="form">
-                                        {{ csrf_field() }}
-                                        <input type="text" name="nome" value="{{ $inscrito->arquivo }}" required
-                                               style="display: none">
-                                        <button type="submit" class="btn btn-yellow mt-20" style="font-size:12px;width:100%; height:100%">
-                                            Baixar
-                                        </button>
-                                    </form>
-                                </li>
+                                <form action="{{route("inscricao-download-comprovante")}}" method="post"
+                                      enctype="multipart/form-data" name="form">
+                                    {{ csrf_field() }}
+                                    <input type="text" name="nome" value="{{ $inscrito->arquivo }}" required
+                                           style="display: none">
+                                    <button type="submit" class="btn btn-yellow mt-20" style="font-size:12px;width:100%; height:100%">
+                                        Baixar
+                                    </button>
+                                </form>
                                 <li style="list-style: none">
                                     <div>
                                         <a href="{{route('apagar', ['id' => $inscrito['id']])}}" target="_parent">
@@ -146,10 +140,18 @@
                 </table>
 
                 <form>
-                    <a href="{{route('inscricao-baixar')}}" target="_parent">
+                    <a href="{{route('inscricao-baixar')}}" target="_blank">
                         <button type="button" class="btn btn-yellow mt-20"
                                 style="font-size:12px;width:100%; height:100%">
                             Baixar
+                        </button>
+                    </a>
+                </form>
+                <form>
+                    <a href="{{route('inscricao-baixar-simples')}}" target="_blank">
+                        <button type="button" class="btn btn-yellow mt-20"
+                                style="font-size:12px;width:100%; height:100%">
+                            Baixar (Formato Simples)
                         </button>
                     </a>
                 </form>

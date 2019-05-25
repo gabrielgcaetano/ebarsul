@@ -33,6 +33,7 @@ $this->get('inscricao-enviar-email-organizacao', 'Admin\InscricaoController@envi
  *   Responsável por baixar lista de inscritos.
  */
 $this->get('inscricao-baixar', 'Admin\InscricaoController@listaInscritosBaixar')->name('inscricao-baixar');
+$this->get('inscricao-baixar-simples', 'Admin\InscricaoController@listaInscritosBaixarSimples')->name('inscricao-baixar-simples');
 
 /*
  *  Responsável por confirmar a inscrição de um inscrito.

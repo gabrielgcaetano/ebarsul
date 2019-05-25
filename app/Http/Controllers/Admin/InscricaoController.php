@@ -30,11 +30,10 @@ class InscricaoController extends Controller
         {
         $dataForm = $request->all();
         $retorno = $inscrito->salvar($dataForm);
-            return redirect()->route('inscricao-enviar-email-inscrito');
+        return redirect()->route('inscricao-enviar-email-inscrito');
         } catch (\Exception $e) {
             return view('erro');
         }
-
     }
 
     /*
@@ -69,7 +68,7 @@ class InscricaoController extends Controller
         /*Mail::to("araujo.ruicesar@gmail.com")
             ->send(new SendMailOrganizacao($ins));
 */
-        Mail::to("gabriel.goulartcaetano@gmail.com")
+        Mail::to("araujo.ruicesar@gmail.com")
             ->send(new SendMailOrganizacao($ins));
         $inscritos = $inscrito::all();
         $inscricaoFeita = true;
@@ -117,7 +116,12 @@ class InscricaoController extends Controller
         $inscritos = $inscrito::all()->sortBy('id');
         return view('formulario-impressao-inscritos', compact('inscritos'));
     }
-
+    
+    public function listaInscritosBaixarSimples(Inscrito $inscrito){
+        $inscritos = $inscrito::all()->sortBy('id');
+        return view('formulario-impressao-inscritos-simples', compact('inscritos'));
+    }
+    
     /*
      *   Responsável por excluir a inscrição
      */
